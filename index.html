@@ -3,32 +3,38 @@
 
 <head>
     <title>Final Project</title>
-    <link rel="stylesheet" href="salary.css">
+    <link rel="stylesheet" href="phd.css">
 </head>
 
 <body>
     <h2>Gender Salary Gap in Academia</h2>
     <form id="salaryFilter">
-        <label for="plotType">Plot By:</label>
-        <select id="plotType">
-            <option value="Salary">Salary</option>
-            <option value="Gap">Gap</option>
-        </select>
+        <div id="plotFilter">
+            <label for="plotType">Plot By:</label>
+            <select id="plotType">
+                <option value="Salary">Salary</option>
+                <option value="Gap">Gap</option>
+            </select>
+        </div>
+
+        <div id="sortFilter">
+            <label for="sortType">Sort By:</label>
+            <select id="sortType">
+                <option value="Job Category">Job Category</option>
+                <option value="Widest Gap">Widest Gap</option>
+                <option value="Highest Paid Men Job">Highest Paid Men Job</option>
+                <option value="Highest Paid Women Job">Highest Paid Women Job</option>
+            </select>
+        </div>
     </form>
-    <svg id="salaryContainer" height="900" width="1400">
-        <g id="salaryPlotContainer" transform="translate(340,100)" />
+    <svg id="salaryContainer" height="950" width="1400">
+        <g id="salaryPlotContainer" transform="translate(340,120)" />
     </svg>
 
     <div id="notes">
-        <li>Click and drag anywhere within the line graph to create a new time box, click on and drag an existing box to
-            move it, and drag the borders to resize a box.</li>
-        <li>The box currently being created will be shaded in grey, the boxes that have been created will
-            be shaded in light red, and hover or drag an existing box will make it highlighted in deep red.</li>
-        <li>Right-click on an existing box to delete it;</li>
-        <li>Search for specific person(s) by inputting the name in the text input field, and those people whose names
-            contain the characters will be highlighted (put "^" in front of a character to filter the name only starts
-            with that character, put "$" at the end to search the name only ends with the character, and put "*" in
-            between to match the preceding element zero or more times.)</li>
+        <li>Hover over the colored circles to reveal the accurate salary values.</li>
+        <li>Use "Plot By" drop down to swtich between absolute salary values and gap values.</li>
+        <li>Use "Plot By" drop down to swtich between absolute salary values and gap values.</li>
     </div>
 </body>
 
