@@ -76,8 +76,15 @@ function showData(data) {
         .domain(data.map(function (d) { return d.job }))
         .padding(1)
 
-    plotContainer.append("g")
-        .call(d3.axisLeft(yScale))
+    let yAxis = d3.axisLeft(yScale)
+        .tickSize(6)
+
+    let yAxisGroup = plotContainer.append("g")
+        .attr("class", "y-axis-group")
+
+    yAxisGroup.append("g")
+        .attr("class", "y-axis")
+        .call(yAxis)
 
     // create y axis label
     plotContainer.append("text")
@@ -130,7 +137,6 @@ function showData(data) {
         .on("mouseout", hideLabel)
 
     // show value on hover
-
     var div = d3.select("body")
         .append("div")
         .attr("class", "tooltip")
@@ -169,5 +175,42 @@ function showData(data) {
             .duration(200)
             .style("opacity", 0);
     }
+
+    /// add sort
+    d3.select("#sortBy")
+        .on("change", function () {
+            var attribute = d3.select(this).property("value");
+            sortLollipops(attribute, 1);
+        })
+
+    function sortLollipops(attribute, ordering) {
+        sortBy(data, attribute, 1);
+
+        yScale.domain(data.map(function (d) { return d.job; })).copy();
+
+        plotContainer
+            .transition()
+            .attr("transform", function (d) {
+                return "translate(" + [0, (yScale(d.job) + yScale.bandwidth() / 2)] + ")";
+            });
+
+        yAxisGroup.select(".y-axis")
+            .transition()
+            .call(yAxis);
+    }
+
+    function sortBy(data, attribute, order) {
+        data.sort(function (a, b) {
+            if (a[attribute] < b[attribute]) return -1 * order;
+            if (a[attribute] > b[attribute]) return 1 * order;
+            return 0;
+        });
+    }
+
+    sortBy(data, "Job Category", 1);
+    yScale.domain(data.map(function (d) { return d.job }));
+    xScale.domain([0, d3.max(data, function (d) { return d.max })]);
+    xScale.nice();
+
 }
 
