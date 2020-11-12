@@ -246,8 +246,8 @@ function showData(data) {
             xScale.domain([-100, 100])
             xAxis.scale(xScale)
                 .tickFormat(function (d, i) {
-                    if (i == 0) {
-                        return "-100%"
+                    if (i == 5) {
+                        return "0%"
                     } else {
                         return d3.format(".2s")(d);
                     }
@@ -258,7 +258,7 @@ function showData(data) {
             d3.selectAll(".plotLine")
                 .transition()
                 .duration(500)
-                .attr("x1", 0)
+                .attr("x1", 500)
                 .attr("x2", function (d) { return xScale(d.gap); })
                 .attr("y1", function (d) { return yScale(d.job); })
                 .attr("y2", function (d) { return yScale(d.job); })
@@ -266,7 +266,7 @@ function showData(data) {
             d3.selectAll(".lollipop-female")
                 .transition()
                 .duration(500)
-                .attr("cx", 0)
+                .attr("cx", 500)
                 .attr("cy", function (d) { return yScale(d.job); })
                 .attr("r", "6")
 
@@ -281,7 +281,8 @@ function showData(data) {
                 .text("Average Salary Gap (%)")
         }
         else {
-            xScale.domain([0, 200000])
+            xScale
+                .domain([0, 200000])
             xAxis.scale(xScale)
                 .tickFormat(function (d, i) {
                     if (i == 0) {
