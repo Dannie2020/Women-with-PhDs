@@ -6,7 +6,7 @@ salaryContainer.append("text").attr("x", 400).attr("y", 60).text("Female").style
 salaryContainer.append("text").attr("x", 500).attr("y", 60).text("Male").style("font-size", "15px").attr("alignment-baseline", "middle")
 
 // bind the raw data and show the visualization
-let data = d3.csv("salary_visual_data.csv", function (d) {
+let data = d3.csv("data/salary_visual_data.csv", function (d) {
     return {
         job: d.N2OCPRNG,
         fSalary: +d.FemaleSalary,
@@ -245,7 +245,7 @@ function showData(data) {
                 .attr("r", "6")
 
             d3.select("#xlabel")
-                .text("Male and Femal Average Salary Gap (%)")
+                .text("Average Salary Gap (%)")
         }
         else {
             xScale.domain([0, 200000])

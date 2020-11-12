@@ -36,9 +36,35 @@
         <li>Use "Plot By" drop down to swtich between absolute salary values and gap values</li>
         <li>Use "Sort By" drop down to sort the list order</li>
     </div>
+    <div class="sectionBreak"><br></div>
+
+    <h2>Female Salary in Academia by Age</h2>
+    <form id="fSalaryFilter">
+        <div id="fOrderFilter">
+            <label for="fOrderBy">Order By:</label>
+            <select id="fOrderBy">
+                <option value="Job Category">Job Category</option>
+                <option value="≤29">≤29</option>
+                <option value="30-34">30-34</option>
+                <option value="35-39">35-39</option>
+                <option value="40-44">40-44</option>
+                <option value="45-49">45-49</option>
+                <option value="50-54">50-54</option>
+                <option value="55-59">55-59</option>
+                <option value="60-64">60-64</option>
+                <option value="65-69">65-69</option>
+                <option value="70-75">70-75</option>
+            </select>
+        </div>
+    </form>
+    <svg id="fSalaryContainer" height="650" width="1420">
+        <g id="fSalaryLegend" transform="translate(200,60)" />
+        <g id="fSalaryPlotContainer" transform="translate(200,200)" />
+    </svg>
 </body>
 
 <script src="https://d3js.org/d3.v6.min.js"></script>
-<script src="salary.js"></script>
+<script src="js/salary.js"></script>
+<script src="js/fSalary.js"></script>
 
 </html>

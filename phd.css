@@ -7,8 +7,13 @@
      margin-left: 200px;
      font-size: 36px;
  }
- 
- #salaryFilter {
+
+ .sectionBreak {
+    margin-top: 50px;
+ }
+
+ #salaryFilter,
+ #fSalaryFilter {
     position: relative;
     left: 200px;
     top: 20px;
@@ -60,4 +65,9 @@ div.tooltip {
       color: white;		
       border-radius: 4px;
       pointer-events: none;	
+    }
+
+    .fSalaryLegendLabel {
+      font-size: 12px;
+
     }
