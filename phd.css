@@ -12,6 +12,14 @@
     margin-top: 50px;
  }
 
+#vis {
+  margin-top: 50px;
+  margin-left: 200px;
+  height: 700px;
+  width: 1420px;
+}
+
+ #genderCountFilter,
  #salaryFilter,
  #fSalaryFilter {
     position: relative;
@@ -29,7 +37,7 @@
 }
 
 .notes {
-    margin-left: 40px;
+    margin-left: 200px;
     color: #666666;
     font-size: 14px;
 }

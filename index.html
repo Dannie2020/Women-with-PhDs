@@ -7,6 +7,20 @@
 </head>
 
 <body>
+    <h2>PhD Gender Counts across Academic Areas over Age</h2>
+    <form id="genderCountFilter">
+        <div id="genderCountRadio">
+            <input type="radio" id="countAcademic" name="type" value="Academic" checked>
+            <label for="academic">Academic</label>
+            <input type="radio" id="countIndustry" name="type" value="Industry">
+            <label for="industry">Industry</label><br>
+        </div>
+    </form>
+    <!--<svg id="countContainer" height="950" width="1420">
+        <g id="countPlotContainer" transform="translate(200,200)" />
+    </svg>-->
+    <div id="vis"></div>
+
     <h2>PhD Gender Salary Gap</h2>
     <form id="salaryFilter">
         <div id="salaryRadio">
@@ -72,9 +86,12 @@
     </div>
     <div class="sectionBreak"><br></div>
 </body>
-
+<script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-lite@4"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
 <script src="https://d3js.org/d3.v6.min.js"></script>
 <script src="js/salary.js"></script>
 <script src="js/fSalary.js"></script>
+<script src="js/count.js"></script>
 
 </html>
