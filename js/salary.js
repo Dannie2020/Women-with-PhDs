@@ -11,7 +11,8 @@ let data = d3.csv("data/salary_visual_data.csv", function (d) {
         job: d.N2OCPRNG,
         fSalary: +d.FemaleSalary,
         mSalary: +d.MaleSalary,
-        gap: +d.Gap
+        gap: +d.Gap,
+        academia: d.ACADEMIA
     }
 }).then(showData)
 
@@ -25,6 +26,36 @@ let plotVars = ({
 
 // create showData function
 function showData(data) {
+    // filter data based on academic or industry
+    let displayData = data.filter(function (d) { return d.academia == "TRUE" })
+    window.addEventListener("load", () => { drawData(displayData); }, false);
+
+    d3.select("#academic")
+        .on("click", function () {
+            displayData = data.filter(function (d) { return d.academia == "TRUE" });
+            d3.selectAll(".plotLine").remove();
+            d3.selectAll(".lollipop-female").remove();
+            d3.selectAll(".lollipop-male").remove();
+            drawData(displayData);
+            /*console.log(d3.select("#plotFilter").node().value);
+            if (d3.select("#plotFilter").node().value == "Gap") {
+                plotLollipops("Gap");
+            }*/
+        })
+
+    d3.select("#industry")
+        .on("click", function () {
+            displayData = data.filter(function (d) { return d.academia == "FALSE" });
+            d3.selectAll(".plotLine").remove();
+            d3.selectAll(".lollipop-female").remove();
+            d3.selectAll(".lollipop-male").remove();
+            drawData(displayData);
+            /*console.log(d3.select("#plotFilter").property("value"));
+            if (d3.select("#plotFilter").node().value == "Gap") {
+                plotLollipops("Gap");
+            }*/
+        })
+
     // determine scales and axis
     // create x axis
     let xScale = d3.scaleLinear()
@@ -120,47 +151,49 @@ function showData(data) {
         .style("text-anchor", "middle")
         .text("Principal Job Category/Sub-category")
 
-    // lines
-    plotContainer.selectAll("myline")
-        .data(data)
-        .enter()
-        .append("line")
-        .attr("x1", function (d) { return xScale(d.fSalary); })
-        .attr("x2", function (d) { return xScale(d.mSalary); })
-        .attr("y1", function (d) { return yScale(d.job); })
-        .attr("y2", function (d) { return yScale(d.job); })
-        .attr("stroke", "grey")
-        .attr("stroke-width", "1px")
-        .attr("class", "plotLine")
 
-    // circles of female salaries
-    plotContainer.selectAll("mycircle")
-        .data(data)
-        .enter()
-        .append("circle")
-        .attr("cx", function (d) { return xScale(d.fSalary); })
-        .attr("cy", function (d) { return yScale(d.job); })
-        .attr("r", "6")
-        .attr("class", "lollipop-female")
-        .style("fill", "#e8505b")
-        .on("mouseover", showLabel)
-        .on("mousemove", moveLabel)
-        .on("mouseout", hideLabel)
+    function drawData(displayData) {
+        // lines
+        plotContainer.selectAll("myline")
+            .data(displayData)
+            .enter()
+            .append("line")
+            .attr("x1", function (d) { return xScale(d.fSalary); })
+            .attr("x2", function (d) { return xScale(d.mSalary); })
+            .attr("y1", function (d) { return yScale(d.job); })
+            .attr("y2", function (d) { return yScale(d.job); })
+            .attr("stroke", "grey")
+            .attr("stroke-width", "1px")
+            .attr("class", "plotLine")
 
-    // circles of male salaries
-    plotContainer.selectAll("mycircle")
-        .data(data)
-        .enter()
-        .append("circle")
-        .attr("cx", function (d) { return xScale(d.mSalary); })
-        .attr("cy", function (d) { return yScale(d.job); })
-        .attr("r", "6")
-        .attr("class", "lollipop-male")
-        .style("fill", "#16a596")
-        .on("mouseover", showLabel)
-        .on("mousemove", moveLabel)
-        .on("mouseout", hideLabel)
+        // circles of female salaries
+        plotContainer.selectAll("mycircle")
+            .data(displayData)
+            .enter()
+            .append("circle")
+            .attr("cx", function (d) { return xScale(d.fSalary); })
+            .attr("cy", function (d) { return yScale(d.job); })
+            .attr("r", "6")
+            .attr("class", "lollipop-female")
+            .style("fill", "#e8505b")
+            .on("mouseover", showLabel)
+            .on("mousemove", moveLabel)
+            .on("mouseout", hideLabel)
 
+        // circles of male salaries
+        plotContainer.selectAll("mycircle")
+            .data(displayData)
+            .enter()
+            .append("circle")
+            .attr("cx", function (d) { return xScale(d.mSalary); })
+            .attr("cy", function (d) { return yScale(d.job); })
+            .attr("r", "6")
+            .attr("class", "lollipop-male")
+            .style("fill", "#16a596")
+            .on("mouseover", showLabel)
+            .on("mousemove", moveLabel)
+            .on("mouseout", hideLabel)
+    }
     // show value on hover
     var div = d3.select("body")
         .append("div")
@@ -210,11 +243,11 @@ function showData(data) {
 
     function plotLollipops(attribute) {
         if (attribute == "Gap") {
-            xScale.domain([0, 100])
+            xScale.domain([-100, 100])
             xAxis.scale(xScale)
                 .tickFormat(function (d, i) {
                     if (i == 0) {
-                        return "0%"
+                        return "-100%"
                     } else {
                         return d3.format(".2s")(d);
                     }
@@ -233,14 +266,14 @@ function showData(data) {
             d3.selectAll(".lollipop-female")
                 .transition()
                 .duration(500)
-                .attr("cx", function (d) { return xScale(d.gap); })
+                .attr("cx", 0)
                 .attr("cy", function (d) { return yScale(d.job); })
                 .attr("r", "6")
 
             d3.selectAll(".lollipop-male")
                 .transition()
                 .duration(500)
-                .attr("cx", 0)
+                .attr("cx", function (d) { return xScale(d.gap); })
                 .attr("cy", function (d) { return yScale(d.job); })
                 .attr("r", "6")
 

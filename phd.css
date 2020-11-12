@@ -19,11 +19,16 @@
     top: 20px;
 }
 
-#sortFilter {
+#salaryRadio {
+  padding-bottom: 10px;
+}
+
+#sortFilter,
+#plotFilter {
     padding-top: 10px;
 }
 
-#notes {
+.notes {
     margin-left: 40px;
     color: #666666;
     font-size: 14px;

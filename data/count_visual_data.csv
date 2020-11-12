@@ -1,0 +1,189 @@
+,N2OCPRMG,N2OCPRNG,ACADEMIA,GENDER,Count
+0,"Biological, agricultural and other life scientists ","Biological, agricultural and other life scientists ",False,Female ,3052
+1,"Biological, agricultural and other life scientists ","Biological, agricultural and other life scientists ",True,Female ,3909
+2,"Biological, agricultural and other life scientists ","Biological, agricultural and other life scientists ",False,Male ,3239
+3,"Biological, agricultural and other life scientists ","Biological, agricultural and other life scientists ",True,Male ,4358
+4,"Biological, agricultural and other life scientists ",Agricultural & food scientists ,False,Female ,390
+5,"Biological, agricultural and other life scientists ",Agricultural & food scientists ,True,Female ,164
+6,"Biological, agricultural and other life scientists ",Agricultural & food scientists ,False,Male ,626
+7,"Biological, agricultural and other life scientists ",Agricultural & food scientists ,True,Male ,240
+8,"Biological, agricultural and other life scientists ",Biological and medical scientists ,False,Female ,2507
+9,"Biological, agricultural and other life scientists ",Biological and medical scientists ,True,Female ,1660
+10,"Biological, agricultural and other life scientists ",Biological and medical scientists ,False,Male ,2362
+11,"Biological, agricultural and other life scientists ",Biological and medical scientists ,True,Male ,1592
+12,"Biological, agricultural and other life scientists ",Environmental life scientists ,False,Female ,129
+13,"Biological, agricultural and other life scientists ",Environmental life scientists ,True,Female ,39
+14,"Biological, agricultural and other life scientists ",Environmental life scientists ,False,Male ,210
+15,"Biological, agricultural and other life scientists ",Environmental life scientists ,True,Male ,43
+16,"Biological, agricultural and other life scientists ",Postsecondary teachers - life and related sciences ,False,Female ,26
+17,"Biological, agricultural and other life scientists ",Postsecondary teachers - life and related sciences ,True,Female ,2046
+18,"Biological, agricultural and other life scientists ",Postsecondary teachers - life and related sciences ,False,Male ,41
+19,"Biological, agricultural and other life scientists ",Postsecondary teachers - life and related sciences ,True,Male ,2483
+20,Computer and mathematical scientists ,Computer and mathematical scientists ,False,Female ,1125
+21,Computer and mathematical scientists ,Computer and mathematical scientists ,True,Female ,992
+22,Computer and mathematical scientists ,Computer and mathematical scientists ,False,Male ,3112
+23,Computer and mathematical scientists ,Computer and mathematical scientists ,True,Male ,2203
+24,Computer and mathematical scientists ,Computer and information scientists ,False,Female ,643
+25,Computer and mathematical scientists ,Computer and information scientists ,True,Female ,78
+26,Computer and mathematical scientists ,Computer and information scientists ,False,Male ,2278
+27,Computer and mathematical scientists ,Computer and information scientists ,True,Male ,207
+28,Computer and mathematical scientists ,Mathematical scientists ,False,Female ,470
+29,Computer and mathematical scientists ,Mathematical scientists ,True,Female ,113
+30,Computer and mathematical scientists ,Mathematical scientists ,False,Male ,812
+31,Computer and mathematical scientists ,Mathematical scientists ,True,Male ,160
+32,Computer and mathematical scientists ,Postsecondary teachers - computer and math sciences ,False,Female ,12
+33,Computer and mathematical scientists ,Postsecondary teachers - computer and math sciences ,True,Female ,801
+34,Computer and mathematical scientists ,Postsecondary teachers - computer and math sciences ,False,Male ,22
+35,Computer and mathematical scientists ,Postsecondary teachers - computer and math sciences ,True,Male ,1836
+36,Engineers ,Engineers ,False,Female ,1084
+37,Engineers ,Engineers ,True,Female ,743
+38,Engineers ,Engineers ,False,Male ,4194
+39,Engineers ,Engineers ,True,Male ,2771
+40,Engineers ,"Aerospace, aeronautical or astronautical engineers ",False,Female ,59
+41,Engineers ,"Aerospace, aeronautical or astronautical engineers ",True,Female ,6
+42,Engineers ,"Aerospace, aeronautical or astronautical engineers ",False,Male ,318
+43,Engineers ,"Aerospace, aeronautical or astronautical engineers ",True,Male ,24
+44,Engineers ,Chemical engineers ,False,Female ,99
+45,Engineers ,Chemical engineers ,True,Female ,10
+46,Engineers ,Chemical engineers ,False,Male ,265
+47,Engineers ,Chemical engineers ,True,Male ,22
+48,Engineers ,"Civil, architectural or sanitary engineers ",False,Female ,104
+49,Engineers ,"Civil, architectural or sanitary engineers ",True,Female ,19
+50,Engineers ,"Civil, architectural or sanitary engineers ",False,Male ,450
+51,Engineers ,"Civil, architectural or sanitary engineers ",True,Male ,79
+52,Engineers ,Electrical or computer hardware engineers ,False,Female ,173
+53,Engineers ,Electrical or computer hardware engineers ,True,Female ,16
+54,Engineers ,Electrical or computer hardware engineers ,False,Male ,1024
+55,Engineers ,Electrical or computer hardware engineers ,True,Male ,97
+56,Engineers ,Industrial engineers ,False,Female ,26
+57,Engineers ,Industrial engineers ,True,Female ,5
+58,Engineers ,Industrial engineers ,False,Male ,64
+59,Engineers ,Industrial engineers ,True,Male ,18
+60,Engineers ,Mechanical engineers ,False,Female ,58
+61,Engineers ,Mechanical engineers ,True,Female ,16
+62,Engineers ,Mechanical engineers ,False,Male ,426
+63,Engineers ,Mechanical engineers ,True,Male ,59
+64,Engineers ,Other engineers ,False,Female ,562
+65,Engineers ,Other engineers ,True,Female ,85
+66,Engineers ,Other engineers ,False,Male ,1630
+67,Engineers ,Other engineers ,True,Male ,231
+68,Engineers ,Postsecondary teachers - engineering ,False,Female ,3
+69,Engineers ,Postsecondary teachers - engineering ,True,Female ,586
+70,Engineers ,Postsecondary teachers - engineering ,False,Male ,17
+71,Engineers ,Postsecondary teachers - engineering ,True,Male ,2241
+72,Logical Skip ,Logical Skip ,False,Female ,0
+73,Logical Skip ,Logical Skip ,False,Male ,0
+74,Logical Skip ,Logical Skip ,False,Female ,0
+75,Logical Skip ,Logical Skip ,False,Male ,0
+76,Non-S&E Occupations ,Non-S&E Occupations ,False,Female ,3605
+77,Non-S&E Occupations ,Non-S&E Occupations ,True,Female ,2205
+78,Non-S&E Occupations ,Non-S&E Occupations ,False,Male ,4355
+79,Non-S&E Occupations ,Non-S&E Occupations ,True,Male ,2120
+80,Non-S&E Occupations ,"Art, humanities and related occupations ",False,Female ,459
+81,Non-S&E Occupations ,"Art, humanities and related occupations ",True,Female ,63
+82,Non-S&E Occupations ,"Art, humanities and related occupations ",False,Male ,221
+83,Non-S&E Occupations ,"Art, humanities and related occupations ",True,Male ,20
+84,Non-S&E Occupations ,Management-related occupations ,False,Female ,797
+85,Non-S&E Occupations ,Management-related occupations ,True,Female ,226
+86,Non-S&E Occupations ,Management-related occupations ,False,Male ,897
+87,Non-S&E Occupations ,Management-related occupations ,True,Male ,138
+88,Non-S&E Occupations ,Non-S&E Managers ,False,Female ,1032
+89,Non-S&E Occupations ,Non-S&E Managers ,True,Female ,693
+90,Non-S&E Occupations ,Non-S&E Managers ,False,Male ,2070
+91,Non-S&E Occupations ,Non-S&E Managers ,True,Male ,877
+92,Non-S&E Occupations ,Non-S&E postsecondary teachers ,False,Female ,25
+93,Non-S&E Occupations ,Non-S&E postsecondary teachers ,True,Female ,1034
+94,Non-S&E Occupations ,Non-S&E postsecondary teachers ,False,Male ,17
+95,Non-S&E Occupations ,Non-S&E postsecondary teachers ,True,Male ,957
+96,Non-S&E Occupations ,Non-S&E precollege teachers ,False,Female ,131
+97,Non-S&E Occupations ,Non-S&E precollege teachers ,True,Female ,8
+98,Non-S&E Occupations ,Non-S&E precollege teachers ,False,Male ,32
+99,Non-S&E Occupations ,Non-S&E precollege teachers ,True,Male ,6
+100,Non-S&E Occupations ,Other non-S&E occupations ,False,Female ,572
+101,Non-S&E Occupations ,Other non-S&E occupations ,True,Female ,115
+102,Non-S&E Occupations ,Other non-S&E occupations ,False,Male ,609
+103,Non-S&E Occupations ,Other non-S&E occupations ,True,Male ,86
+104,Non-S&E Occupations ,Sales and marketing occupations ,False,Female ,268
+105,Non-S&E Occupations ,Sales and marketing occupations ,True,Female ,2
+106,Non-S&E Occupations ,Sales and marketing occupations ,False,Male ,352
+107,Non-S&E Occupations ,Sales and marketing occupations ,True,Male ,7
+108,Non-S&E Occupations ,Social services and related occupations ,False,Female ,321
+109,Non-S&E Occupations ,Social services and related occupations ,True,Female ,64
+110,Non-S&E Occupations ,Social services and related occupations ,False,Male ,157
+111,Non-S&E Occupations ,Social services and related occupations ,True,Male ,29
+112,Physical and related scientists ,Physical and related scientists ,False,Female ,1078
+113,Physical and related scientists ,Physical and related scientists ,True,Female ,1673
+114,Physical and related scientists ,Physical and related scientists ,False,Male ,2663
+115,Physical and related scientists ,Physical and related scientists ,True,Male ,3364
+116,Physical and related scientists ,"Chemists, except biochemists ",False,Female ,382
+117,Physical and related scientists ,"Chemists, except biochemists ",True,Female ,66
+118,Physical and related scientists ,"Chemists, except biochemists ",False,Male ,788
+119,Physical and related scientists ,"Chemists, except biochemists ",True,Male ,137
+120,Physical and related scientists ,"Earth scientists, geologists and oceanographers ",False,Female ,391
+121,Physical and related scientists ,"Earth scientists, geologists and oceanographers ",True,Female ,205
+122,Physical and related scientists ,"Earth scientists, geologists and oceanographers ",False,Male ,817
+123,Physical and related scientists ,"Earth scientists, geologists and oceanographers ",True,Male ,354
+124,Physical and related scientists ,Other physical & related scientists ,False,Female ,152
+125,Physical and related scientists ,Other physical & related scientists ,True,Female ,43
+126,Physical and related scientists ,Other physical & related scientists ,False,Male ,389
+127,Physical and related scientists ,Other physical & related scientists ,True,Male ,105
+128,Physical and related scientists ,Physicists and astronomers ,False,Female ,140
+129,Physical and related scientists ,Physicists and astronomers ,True,Female ,69
+130,Physical and related scientists ,Physicists and astronomers ,False,Male ,634
+131,Physical and related scientists ,Physicists and astronomers ,True,Male ,264
+132,Physical and related scientists ,Postsecondary teachers - physical and related sciences ,False,Female ,13
+133,Physical and related scientists ,Postsecondary teachers - physical and related sciences ,True,Female ,1290
+134,Physical and related scientists ,Postsecondary teachers - physical and related sciences ,False,Male ,35
+135,Physical and related scientists ,Postsecondary teachers - physical and related sciences ,True,Male ,2504
+136,S&E related occupations ,S&E related occupations ,False,Female ,1944
+137,S&E related occupations ,S&E related occupations ,True,Female ,1708
+138,S&E related occupations ,S&E related occupations ,False,Male ,2699
+139,S&E related occupations ,S&E related occupations ,True,Male ,1245
+140,S&E related occupations ,Health-related occupations ,False,Female ,926
+141,S&E related occupations ,Health-related occupations ,True,Female ,1528
+142,S&E related occupations ,Health-related occupations ,False,Male ,757
+143,S&E related occupations ,Health-related occupations ,True,Male ,974
+144,S&E related occupations ,Other S&E-related occupations ,False,Female ,20
+145,S&E related occupations ,Other S&E-related occupations ,True,Female ,1
+146,S&E related occupations ,Other S&E-related occupations ,False,Male ,53
+147,S&E related occupations ,Other S&E-related occupations ,True,Male ,3
+148,S&E related occupations ,S&E Pre-college Teachers ,False,Female ,233
+149,S&E related occupations ,S&E Pre-college Teachers ,True,Female ,6
+150,S&E related occupations ,S&E Pre-college Teachers ,False,Male ,191
+151,S&E related occupations ,S&E Pre-college Teachers ,True,Male ,6
+152,S&E related occupations ,S&E managers ,False,Female ,689
+153,S&E related occupations ,S&E managers ,True,Female ,137
+154,S&E related occupations ,S&E managers ,False,Male ,1445
+155,S&E related occupations ,S&E managers ,True,Male ,197
+156,S&E related occupations ,S&E technicians and technologists ,False,Female ,76
+157,S&E related occupations ,S&E technicians and technologists ,True,Female ,36
+158,S&E related occupations ,S&E technicians and technologists ,False,Male ,253
+159,S&E related occupations ,S&E technicians and technologists ,True,Male ,65
+160,Social and related scientists ,Social and related scientists ,False,Female ,2525
+161,Social and related scientists ,Social and related scientists ,True,Female ,3814
+162,Social and related scientists ,Social and related scientists ,False,Male ,1457
+163,Social and related scientists ,Social and related scientists ,True,Male ,3017
+164,Social and related scientists ,Economists ,False,Female ,242
+165,Social and related scientists ,Economists ,True,Female ,45
+166,Social and related scientists ,Economists ,False,Male ,434
+167,Social and related scientists ,Economists ,True,Male ,83
+168,Social and related scientists ,Other social and related scientists ,False,Female ,456
+169,Social and related scientists ,Other social and related scientists ,True,Female ,239
+170,Social and related scientists ,Other social and related scientists ,False,Male ,174
+171,Social and related scientists ,Other social and related scientists ,True,Male ,85
+172,Social and related scientists ,Political scientists ,False,Female ,42
+173,Social and related scientists ,Political scientists ,True,Female ,15
+174,Social and related scientists ,Political scientists ,False,Male ,43
+175,Social and related scientists ,Political scientists ,True,Male ,17
+176,Social and related scientists ,Postsecondary teachers - social and related sciences ,False,Female ,19
+177,Social and related scientists ,Postsecondary teachers - social and related sciences ,True,Female ,3108
+178,Social and related scientists ,Postsecondary teachers - social and related sciences ,False,Male ,25
+179,Social and related scientists ,Postsecondary teachers - social and related sciences ,True,Male ,2654
+180,Social and related scientists ,Psychologists ,False,Female ,1605
+181,Social and related scientists ,Psychologists ,True,Female ,328
+182,Social and related scientists ,Psychologists ,False,Male ,709
+183,Social and related scientists ,Psychologists ,True,Male ,134
+184,Social and related scientists ,Sociologists and anthropologists ,False,Female ,161
+185,Social and related scientists ,Sociologists and anthropologists ,True,Female ,79
+186,Social and related scientists ,Sociologists and anthropologists ,False,Male ,72
+187,Social and related scientists ,Sociologists and anthropologists ,True,Male ,44

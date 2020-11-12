@@ -2,13 +2,19 @@
 <html lang="en">
 
 <head>
-    <title>Final Project</title>
+    <title>Women with PhD</title>
     <link rel="stylesheet" href="phd.css">
 </head>
 
 <body>
-    <h2>Gender Salary Gap in Academia</h2>
+    <h2>PhD Gender Salary Gap</h2>
     <form id="salaryFilter">
+        <div id="salaryRadio">
+            <input type="radio" id="academic" name="type" value="Academic" checked>
+            <label for="academic">Academic</label>
+            <input type="radio" id="industry" name="type" value="Industry">
+            <label for="industry">Industry</label><br>
+        </div>
         <div id="plotFilter">
             <label for="plotBy">Plot By:</label>
             <select id="plotBy">
@@ -31,14 +37,14 @@
         <g id="salaryPlotContainer" transform="translate(390,120)" />
     </svg>
 
-    <div id="notes">
+    <div class="notes">
         <li>Hover over the colored circles to reveal the accurate salary values</li>
         <li>Use "Plot By" drop down to swtich between absolute salary values and gap values</li>
         <li>Use "Sort By" drop down to sort the list order</li>
     </div>
     <div class="sectionBreak"><br></div>
 
-    <h2>Female Salary in Academia by Age</h2>
+    <h2>Salary of Female PhD by Age</h2>
     <form id="fSalaryFilter">
         <div id="fOrderFilter">
             <label for="fOrderBy">Order By:</label>
@@ -61,6 +67,10 @@
         <g id="fSalaryLegend" transform="translate(200,60)" />
         <g id="fSalaryPlotContainer" transform="translate(200,200)" />
     </svg>
+    <div class="notes">
+        <li>Use "Order By" drop down to sort the order by age group</li>
+    </div>
+    <div class="sectionBreak"><br></div>
 </body>
 
 <script src="https://d3js.org/d3.v6.min.js"></script>
