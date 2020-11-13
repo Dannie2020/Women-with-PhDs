@@ -37,10 +37,10 @@ function showData(data) {
             d3.selectAll(".lollipop-female").remove();
             d3.selectAll(".lollipop-male").remove();
             drawData(displayData);
-            /*console.log(d3.select("#plotFilter").node().value);
-            if (d3.select("#plotFilter").node().value == "Gap") {
+
+            if (d3.select("select").node().value == "Gap") {
                 plotLollipops("Gap");
-            }*/
+            }
         })
 
     d3.select("#industry")
@@ -50,10 +50,10 @@ function showData(data) {
             d3.selectAll(".lollipop-female").remove();
             d3.selectAll(".lollipop-male").remove();
             drawData(displayData);
-            /*console.log(d3.select("#plotFilter").property("value"));
-            if (d3.select("#plotFilter").node().value == "Gap") {
+
+            if (d3.select("select").node().value == "Gap") {
                 plotLollipops("Gap");
-            }*/
+            }
         })
 
     // determine scales and axis
@@ -77,6 +77,10 @@ function showData(data) {
     xAxisGroup.append("g")
         .attr("class", "x-axis")
         .call(xAxis)
+
+    xGap = d3.scaleLinear()
+        .domain(d3.min(data, d => d.gap), d3.max(data, d => d.gap))
+        .range([0, plotVars.plotWidth])
 
     // create x axis label
     plotContainer.append("text")
@@ -322,41 +326,24 @@ function showData(data) {
     }
 
     // add sort
-    /*
+
     d3.select("#sortBy")
         .on("change", function () {
             var attribute = d3.select(this).property("value");
-            sortLollipops(attribute, 1);
+            sortLollipops(attribute);
         })
 
-    function sortLollipops(attribute, ordering) {
-        sortBy(data, attribute, 1);
-
-        yScale.domain(data.map(function (d) { return d.job; })).copy();
-
-        plotContainer
-            .transition()
-            .attr("transform", function (d) {
-                return "translate(" + [0, (yScale(d.job) + yScale.bandwidth() / 2)] + ")";
-            });
-
-        yAxisGroup.select(".y-axis")
-            .transition()
-            .call(yAxis);
+    function sortLollipops(attribute) {
+        const index = d3.range(data.length);
+        let order = "job";
+        if (attribute === "Job Category") order = "job";
+        if (attribute === "Gap Widest") order = "gap";
+        if (attribute === "Highest Paid Men") order = "mSalary";
+        if (attribute === "Highest Paid Women") order = "fSalary";
+        index.sort((i, j) => d3.descending(data[i][order], data[j][order]));
+        console.log(attribute)
+        //chart.update(d3.permute(data.map(d => d.job), index));
     }
-
-    function sortBy(data, attribute, order) {
-        data.sort(function (a, b) {
-            if (a[attribute] < b[attribute]) return -1 * order;
-            if (a[attribute] > b[attribute]) return 1 * order;
-            return 0;
-        });
-    }
-
-    sortBy(data, "Job Category", 1);
-    yScale.domain(data.map(function (d) { return d.job }));
-    xScale.domain([0, d3.max(data, function (d) { return d.max })]);
-    xScale.nice();*/
 
 }
 
