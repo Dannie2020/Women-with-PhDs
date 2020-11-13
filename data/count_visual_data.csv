@@ -1,189 +1,281 @@
-,N2OCPRMG,N2OCPRNG,ACADEMIA,GENDER,Count
-0,"Biological, agricultural and other life scientists ","Biological, agricultural and other life scientists",FALSE,Female,3052
-1,"Biological, agricultural and other life scientists ","Biological, agricultural and other life scientists",TRUE,Female,3909
-2,"Biological, agricultural and other life scientists ","Biological, agricultural and other life scientists",FALSE,Male,3239
-3,"Biological, agricultural and other life scientists ","Biological, agricultural and other life scientists",TRUE,Male,4358
-4,"Biological, agricultural and other life scientists ",Agricultural & food scientists,FALSE,Female,390
-5,"Biological, agricultural and other life scientists ",Agricultural & food scientists,TRUE,Female,164
-6,"Biological, agricultural and other life scientists ",Agricultural & food scientists,FALSE,Male,626
-7,"Biological, agricultural and other life scientists ",Agricultural & food scientists,TRUE,Male,240
-8,"Biological, agricultural and other life scientists ",Biological and medical scientists,FALSE,Female,2507
-9,"Biological, agricultural and other life scientists ",Biological and medical scientists,TRUE,Female,1660
-10,"Biological, agricultural and other life scientists ",Biological and medical scientists,FALSE,Male,2362
-11,"Biological, agricultural and other life scientists ",Biological and medical scientists,TRUE,Male,1592
-12,"Biological, agricultural and other life scientists ",Environmental life scientists,FALSE,Female,129
-13,"Biological, agricultural and other life scientists ",Environmental life scientists,TRUE,Female,39
-14,"Biological, agricultural and other life scientists ",Environmental life scientists,FALSE,Male,210
-15,"Biological, agricultural and other life scientists ",Environmental life scientists,TRUE,Male,43
-16,"Biological, agricultural and other life scientists ",Postsecondary teachers - life and related sciences,FALSE,Female,26
-17,"Biological, agricultural and other life scientists ",Postsecondary teachers - life and related sciences,TRUE,Female,2046
-18,"Biological, agricultural and other life scientists ",Postsecondary teachers - life and related sciences,FALSE,Male,41
-19,"Biological, agricultural and other life scientists ",Postsecondary teachers - life and related sciences,TRUE,Male,2483
-20,Computer and mathematical scientists ,Computer and mathematical scientists,FALSE,Female,1125
-21,Computer and mathematical scientists ,Computer and mathematical scientists,TRUE,Female,992
-22,Computer and mathematical scientists ,Computer and mathematical scientists,FALSE,Male,3112
-23,Computer and mathematical scientists ,Computer and mathematical scientists,TRUE,Male,2203
-24,Computer and mathematical scientists ,Computer and information scientists,FALSE,Female,643
-25,Computer and mathematical scientists ,Computer and information scientists,TRUE,Female,78
-26,Computer and mathematical scientists ,Computer and information scientists,FALSE,Male,2278
-27,Computer and mathematical scientists ,Computer and information scientists,TRUE,Male,207
-28,Computer and mathematical scientists ,Mathematical scientists,FALSE,Female,470
-29,Computer and mathematical scientists ,Mathematical scientists,TRUE,Female,113
-30,Computer and mathematical scientists ,Mathematical scientists,FALSE,Male,812
-31,Computer and mathematical scientists ,Mathematical scientists,TRUE,Male,160
-32,Computer and mathematical scientists ,Postsecondary teachers - computer and math sciences,FALSE,Female,12
-33,Computer and mathematical scientists ,Postsecondary teachers - computer and math sciences,TRUE,Female,801
-34,Computer and mathematical scientists ,Postsecondary teachers - computer and math sciences,FALSE,Male,22
-35,Computer and mathematical scientists ,Postsecondary teachers - computer and math sciences,TRUE,Male,1836
-36,Engineers ,Engineers,FALSE,Female,1084
-37,Engineers ,Engineers,TRUE,Female,743
-38,Engineers ,Engineers,FALSE,Male,4194
-39,Engineers ,Engineers,TRUE,Male,2771
-40,Engineers ,"Aerospace, aeronautical or astronautical engineers",FALSE,Female,59
-41,Engineers ,"Aerospace, aeronautical or astronautical engineers",TRUE,Female,6
-42,Engineers ,"Aerospace, aeronautical or astronautical engineers",FALSE,Male,318
-43,Engineers ,"Aerospace, aeronautical or astronautical engineers",TRUE,Male,24
-44,Engineers ,Chemical engineers,FALSE,Female,99
-45,Engineers ,Chemical engineers,TRUE,Female,10
-46,Engineers ,Chemical engineers,FALSE,Male,265
-47,Engineers ,Chemical engineers,TRUE,Male,22
-48,Engineers ,"Civil, architectural or sanitary engineers",FALSE,Female,104
-49,Engineers ,"Civil, architectural or sanitary engineers",TRUE,Female,19
-50,Engineers ,"Civil, architectural or sanitary engineers",FALSE,Male,450
-51,Engineers ,"Civil, architectural or sanitary engineers",TRUE,Male,79
-52,Engineers ,Electrical or computer hardware engineers,FALSE,Female,173
-53,Engineers ,Electrical or computer hardware engineers,TRUE,Female,16
-54,Engineers ,Electrical or computer hardware engineers,FALSE,Male,1024
-55,Engineers ,Electrical or computer hardware engineers,TRUE,Male,97
-56,Engineers ,Industrial engineers,FALSE,Female,26
-57,Engineers ,Industrial engineers,TRUE,Female,5
-58,Engineers ,Industrial engineers,FALSE,Male,64
-59,Engineers ,Industrial engineers,TRUE,Male,18
-60,Engineers ,Mechanical engineers,FALSE,Female,58
-61,Engineers ,Mechanical engineers,TRUE,Female,16
-62,Engineers ,Mechanical engineers,FALSE,Male,426
-63,Engineers ,Mechanical engineers,TRUE,Male,59
-64,Engineers ,Other engineers,FALSE,Female,562
-65,Engineers ,Other engineers,TRUE,Female,85
-66,Engineers ,Other engineers,FALSE,Male,1630
-67,Engineers ,Other engineers,TRUE,Male,231
-68,Engineers ,Postsecondary teachers - engineering,FALSE,Female,3
-69,Engineers ,Postsecondary teachers - engineering,TRUE,Female,586
-70,Engineers ,Postsecondary teachers - engineering,FALSE,Male,17
-71,Engineers ,Postsecondary teachers - engineering,TRUE,Male,2241
-72,Logical Skip ,Logical Skip,FALSE,Female,0
-73,Logical Skip ,Logical Skip,FALSE,Male,0
-74,Logical Skip ,Logical Skip,FALSE,Female,0
-75,Logical Skip ,Logical Skip,FALSE,Male,0
-76,Non-S&E Occupations ,Non-S&E Occupations,FALSE,Female,3605
-77,Non-S&E Occupations ,Non-S&E Occupations,TRUE,Female,2205
-78,Non-S&E Occupations ,Non-S&E Occupations,FALSE,Male,4355
-79,Non-S&E Occupations ,Non-S&E Occupations,TRUE,Male,2120
-80,Non-S&E Occupations ,"Art, humanities and related occupations",FALSE,Female,459
-81,Non-S&E Occupations ,"Art, humanities and related occupations",TRUE,Female,63
-82,Non-S&E Occupations ,"Art, humanities and related occupations",FALSE,Male,221
-83,Non-S&E Occupations ,"Art, humanities and related occupations",TRUE,Male,20
-84,Non-S&E Occupations ,Management-related occupations,FALSE,Female,797
-85,Non-S&E Occupations ,Management-related occupations,TRUE,Female,226
-86,Non-S&E Occupations ,Management-related occupations,FALSE,Male,897
-87,Non-S&E Occupations ,Management-related occupations,TRUE,Male,138
-88,Non-S&E Occupations ,Non-S&E Managers,FALSE,Female,1032
-89,Non-S&E Occupations ,Non-S&E Managers,TRUE,Female,693
-90,Non-S&E Occupations ,Non-S&E Managers,FALSE,Male,2070
-91,Non-S&E Occupations ,Non-S&E Managers,TRUE,Male,877
-92,Non-S&E Occupations ,Non-S&E postsecondary teachers,FALSE,Female,25
-93,Non-S&E Occupations ,Non-S&E postsecondary teachers,TRUE,Female,1034
-94,Non-S&E Occupations ,Non-S&E postsecondary teachers,FALSE,Male,17
-95,Non-S&E Occupations ,Non-S&E postsecondary teachers,TRUE,Male,957
-96,Non-S&E Occupations ,Non-S&E precollege teachers,FALSE,Female,131
-97,Non-S&E Occupations ,Non-S&E precollege teachers,TRUE,Female,8
-98,Non-S&E Occupations ,Non-S&E precollege teachers,FALSE,Male,32
-99,Non-S&E Occupations ,Non-S&E precollege teachers,TRUE,Male,6
-100,Non-S&E Occupations ,Other non-S&E occupations,FALSE,Female,572
-101,Non-S&E Occupations ,Other non-S&E occupations,TRUE,Female,115
-102,Non-S&E Occupations ,Other non-S&E occupations,FALSE,Male,609
-103,Non-S&E Occupations ,Other non-S&E occupations,TRUE,Male,86
-104,Non-S&E Occupations ,Sales and marketing occupations,FALSE,Female,268
-105,Non-S&E Occupations ,Sales and marketing occupations,TRUE,Female,2
-106,Non-S&E Occupations ,Sales and marketing occupations,FALSE,Male,352
-107,Non-S&E Occupations ,Sales and marketing occupations,TRUE,Male,7
-108,Non-S&E Occupations ,Social services and related occupations,FALSE,Female,321
-109,Non-S&E Occupations ,Social services and related occupations,TRUE,Female,64
-110,Non-S&E Occupations ,Social services and related occupations,FALSE,Male,157
-111,Non-S&E Occupations ,Social services and related occupations,TRUE,Male,29
-112,Physical and related scientists ,Physical and related scientists,FALSE,Female,1078
-113,Physical and related scientists ,Physical and related scientists,TRUE,Female,1673
-114,Physical and related scientists ,Physical and related scientists,FALSE,Male,2663
-115,Physical and related scientists ,Physical and related scientists,TRUE,Male,3364
-116,Physical and related scientists ,"Chemists, except biochemists",FALSE,Female,382
-117,Physical and related scientists ,"Chemists, except biochemists",TRUE,Female,66
-118,Physical and related scientists ,"Chemists, except biochemists",FALSE,Male,788
-119,Physical and related scientists ,"Chemists, except biochemists",TRUE,Male,137
-120,Physical and related scientists ,"Earth scientists, geologists and oceanographers",FALSE,Female,391
-121,Physical and related scientists ,"Earth scientists, geologists and oceanographers",TRUE,Female,205
-122,Physical and related scientists ,"Earth scientists, geologists and oceanographers",FALSE,Male,817
-123,Physical and related scientists ,"Earth scientists, geologists and oceanographers",TRUE,Male,354
-124,Physical and related scientists ,Other physical & related scientists,FALSE,Female,152
-125,Physical and related scientists ,Other physical & related scientists,TRUE,Female,43
-126,Physical and related scientists ,Other physical & related scientists,FALSE,Male,389
-127,Physical and related scientists ,Other physical & related scientists,TRUE,Male,105
-128,Physical and related scientists ,Physicists and astronomers,FALSE,Female,140
-129,Physical and related scientists ,Physicists and astronomers,TRUE,Female,69
-130,Physical and related scientists ,Physicists and astronomers,FALSE,Male,634
-131,Physical and related scientists ,Physicists and astronomers,TRUE,Male,264
-132,Physical and related scientists ,Postsecondary teachers - physical and related sciences,FALSE,Female,13
-133,Physical and related scientists ,Postsecondary teachers - physical and related sciences,TRUE,Female,1290
-134,Physical and related scientists ,Postsecondary teachers - physical and related sciences,FALSE,Male,35
-135,Physical and related scientists ,Postsecondary teachers - physical and related sciences,TRUE,Male,2504
-136,S&E related occupations ,S&E related occupations,FALSE,Female,1944
-137,S&E related occupations ,S&E related occupations,TRUE,Female,1708
-138,S&E related occupations ,S&E related occupations,FALSE,Male,2699
-139,S&E related occupations ,S&E related occupations,TRUE,Male,1245
-140,S&E related occupations ,Health-related occupations,FALSE,Female,926
-141,S&E related occupations ,Health-related occupations,TRUE,Female,1528
-142,S&E related occupations ,Health-related occupations,FALSE,Male,757
-143,S&E related occupations ,Health-related occupations,TRUE,Male,974
-144,S&E related occupations ,Other S&E-related occupations,FALSE,Female,20
-145,S&E related occupations ,Other S&E-related occupations,TRUE,Female,1
-146,S&E related occupations ,Other S&E-related occupations,FALSE,Male,53
-147,S&E related occupations ,Other S&E-related occupations,TRUE,Male,3
-148,S&E related occupations ,S&E Pre-college Teachers,FALSE,Female,233
-149,S&E related occupations ,S&E Pre-college Teachers,TRUE,Female,6
-150,S&E related occupations ,S&E Pre-college Teachers,FALSE,Male,191
-151,S&E related occupations ,S&E Pre-college Teachers,TRUE,Male,6
-152,S&E related occupations ,S&E managers,FALSE,Female,689
-153,S&E related occupations ,S&E managers,TRUE,Female,137
-154,S&E related occupations ,S&E managers,FALSE,Male,1445
-155,S&E related occupations ,S&E managers,TRUE,Male,197
-156,S&E related occupations ,S&E technicians and technologists,FALSE,Female,76
-157,S&E related occupations ,S&E technicians and technologists,TRUE,Female,36
-158,S&E related occupations ,S&E technicians and technologists,FALSE,Male,253
-159,S&E related occupations ,S&E technicians and technologists,TRUE,Male,65
-160,Social and related scientists ,Social and related scientists,FALSE,Female,2525
-161,Social and related scientists ,Social and related scientists,TRUE,Female,3814
-162,Social and related scientists ,Social and related scientists,FALSE,Male,1457
-163,Social and related scientists ,Social and related scientists,TRUE,Male,3017
-164,Social and related scientists ,Economists,FALSE,Female,242
-165,Social and related scientists ,Economists,TRUE,Female,45
-166,Social and related scientists ,Economists,FALSE,Male,434
-167,Social and related scientists ,Economists,TRUE,Male,83
-168,Social and related scientists ,Other social and related scientists,FALSE,Female,456
-169,Social and related scientists ,Other social and related scientists,TRUE,Female,239
-170,Social and related scientists ,Other social and related scientists,FALSE,Male,174
-171,Social and related scientists ,Other social and related scientists,TRUE,Male,85
-172,Social and related scientists ,Political scientists,FALSE,Female,42
-173,Social and related scientists ,Political scientists,TRUE,Female,15
-174,Social and related scientists ,Political scientists,FALSE,Male,43
-175,Social and related scientists ,Political scientists,TRUE,Male,17
-176,Social and related scientists ,Postsecondary teachers - social and related sciences,FALSE,Female,19
-177,Social and related scientists ,Postsecondary teachers - social and related sciences,TRUE,Female,3108
-178,Social and related scientists ,Postsecondary teachers - social and related sciences,FALSE,Male,25
-179,Social and related scientists ,Postsecondary teachers - social and related sciences,TRUE,Male,2654
-180,Social and related scientists ,Psychologists,FALSE,Female,1605
-181,Social and related scientists ,Psychologists,TRUE,Female,328
-182,Social and related scientists ,Psychologists,FALSE,Male,709
-183,Social and related scientists ,Psychologists,TRUE,Male,134
-184,Social and related scientists ,Sociologists and anthropologists,FALSE,Female,161
-185,Social and related scientists ,Sociologists and anthropologists,TRUE,Female,79
-186,Social and related scientists ,Sociologists and anthropologists,FALSE,Male,72
-187,Social and related scientists ,Sociologists and anthropologists,TRUE,Male,44
+,Principal Job Category,ACADEMIA,Field,GENDER,AGEGRP,Count
+0,"Biological, agricultural and other life scientists ",FALSE,Industry,Female ,Ages 29 or younger ,72
+1,"Biological, agricultural and other life scientists ",FALSE,Industry,Female ,Ages 30-34 ,636
+2,"Biological, agricultural and other life scientists ",FALSE,Industry,Female ,Ages 35-39 ,707
+3,"Biological, agricultural and other life scientists ",FALSE,Industry,Female ,Ages 40-44 ,477
+4,"Biological, agricultural and other life scientists ",FALSE,Industry,Female ,Ages 45-49 ,403
+5,"Biological, agricultural and other life scientists ",FALSE,Industry,Female ,Ages 50-54 ,252
+6,"Biological, agricultural and other life scientists ",FALSE,Industry,Female ,Ages 55-59 ,224
+7,"Biological, agricultural and other life scientists ",FALSE,Industry,Female ,Ages 60-64 ,186
+8,"Biological, agricultural and other life scientists ",FALSE,Industry,Female ,Ages 65-69 ,76
+9,"Biological, agricultural and other life scientists ",FALSE,Industry,Female ,Ages 70-75 ,19
+10,"Biological, agricultural and other life scientists ",TRUE,Academic,Female ,Ages 29 or younger ,70
+11,"Biological, agricultural and other life scientists ",TRUE,Academic,Female ,Ages 30-34 ,774
+12,"Biological, agricultural and other life scientists ",TRUE,Academic,Female ,Ages 35-39 ,921
+13,"Biological, agricultural and other life scientists ",TRUE,Academic,Female ,Ages 40-44 ,622
+14,"Biological, agricultural and other life scientists ",TRUE,Academic,Female ,Ages 45-49 ,436
+15,"Biological, agricultural and other life scientists ",TRUE,Academic,Female ,Ages 50-54 ,383
+16,"Biological, agricultural and other life scientists ",TRUE,Academic,Female ,Ages 55-59 ,297
+17,"Biological, agricultural and other life scientists ",TRUE,Academic,Female ,Ages 60-64 ,245
+18,"Biological, agricultural and other life scientists ",TRUE,Academic,Female ,Ages 65-69 ,110
+19,"Biological, agricultural and other life scientists ",TRUE,Academic,Female ,Ages 70-75 ,51
+20,"Biological, agricultural and other life scientists ",FALSE,Industry,Male ,Ages 29 or younger ,28
+21,"Biological, agricultural and other life scientists ",FALSE,Industry,Male ,Ages 30-34 ,350
+22,"Biological, agricultural and other life scientists ",FALSE,Industry,Male ,Ages 35-39 ,509
+23,"Biological, agricultural and other life scientists ",FALSE,Industry,Male ,Ages 40-44 ,505
+24,"Biological, agricultural and other life scientists ",FALSE,Industry,Male ,Ages 45-49 ,375
+25,"Biological, agricultural and other life scientists ",FALSE,Industry,Male ,Ages 50-54 ,389
+26,"Biological, agricultural and other life scientists ",FALSE,Industry,Male ,Ages 55-59 ,393
+27,"Biological, agricultural and other life scientists ",FALSE,Industry,Male ,Ages 60-64 ,373
+28,"Biological, agricultural and other life scientists ",FALSE,Industry,Male ,Ages 65-69 ,200
+29,"Biological, agricultural and other life scientists ",FALSE,Industry,Male ,Ages 70-75 ,117
+30,"Biological, agricultural and other life scientists ",TRUE,Academic,Male ,Ages 29 or younger ,31
+31,"Biological, agricultural and other life scientists ",TRUE,Academic,Male ,Ages 30-34 ,582
+32,"Biological, agricultural and other life scientists ",TRUE,Academic,Male ,Ages 35-39 ,725
+33,"Biological, agricultural and other life scientists ",TRUE,Academic,Male ,Ages 40-44 ,649
+34,"Biological, agricultural and other life scientists ",TRUE,Academic,Male ,Ages 45-49 ,531
+35,"Biological, agricultural and other life scientists ",TRUE,Academic,Male ,Ages 50-54 ,472
+36,"Biological, agricultural and other life scientists ",TRUE,Academic,Male ,Ages 55-59 ,499
+37,"Biological, agricultural and other life scientists ",TRUE,Academic,Male ,Ages 60-64 ,457
+38,"Biological, agricultural and other life scientists ",TRUE,Academic,Male ,Ages 65-69 ,283
+39,"Biological, agricultural and other life scientists ",TRUE,Academic,Male ,Ages 70-75 ,129
+40,Computer and mathematical scientists ,FALSE,Industry,Female ,Ages 29 or younger ,27
+41,Computer and mathematical scientists ,FALSE,Industry,Female ,Ages 30-34 ,240
+42,Computer and mathematical scientists ,FALSE,Industry,Female ,Ages 35-39 ,240
+43,Computer and mathematical scientists ,FALSE,Industry,Female ,Ages 40-44 ,197
+44,Computer and mathematical scientists ,FALSE,Industry,Female ,Ages 45-49 ,129
+45,Computer and mathematical scientists ,FALSE,Industry,Female ,Ages 50-54 ,119
+46,Computer and mathematical scientists ,FALSE,Industry,Female ,Ages 55-59 ,76
+47,Computer and mathematical scientists ,FALSE,Industry,Female ,Ages 60-64 ,59
+48,Computer and mathematical scientists ,FALSE,Industry,Female ,Ages 65-69 ,33
+49,Computer and mathematical scientists ,FALSE,Industry,Female ,Ages 70-75 ,5
+50,Computer and mathematical scientists ,TRUE,Academic,Female ,Ages 29 or younger ,12
+51,Computer and mathematical scientists ,TRUE,Academic,Female ,Ages 30-34 ,148
+52,Computer and mathematical scientists ,TRUE,Academic,Female ,Ages 35-39 ,171
+53,Computer and mathematical scientists ,TRUE,Academic,Female ,Ages 40-44 ,153
+54,Computer and mathematical scientists ,TRUE,Academic,Female ,Ages 45-49 ,146
+55,Computer and mathematical scientists ,TRUE,Academic,Female ,Ages 50-54 ,135
+56,Computer and mathematical scientists ,TRUE,Academic,Female ,Ages 55-59 ,85
+57,Computer and mathematical scientists ,TRUE,Academic,Female ,Ages 60-64 ,83
+58,Computer and mathematical scientists ,TRUE,Academic,Female ,Ages 65-69 ,46
+59,Computer and mathematical scientists ,TRUE,Academic,Female ,Ages 70-75 ,13
+60,Computer and mathematical scientists ,FALSE,Industry,Male ,Ages 29 or younger ,73
+61,Computer and mathematical scientists ,FALSE,Industry,Male ,Ages 30-34 ,543
+62,Computer and mathematical scientists ,FALSE,Industry,Male ,Ages 35-39 ,615
+63,Computer and mathematical scientists ,FALSE,Industry,Male ,Ages 40-44 ,416
+64,Computer and mathematical scientists ,FALSE,Industry,Male ,Ages 45-49 ,361
+65,Computer and mathematical scientists ,FALSE,Industry,Male ,Ages 50-54 ,365
+66,Computer and mathematical scientists ,FALSE,Industry,Male ,Ages 55-59 ,310
+67,Computer and mathematical scientists ,FALSE,Industry,Male ,Ages 60-64 ,206
+68,Computer and mathematical scientists ,FALSE,Industry,Male ,Ages 65-69 ,136
+69,Computer and mathematical scientists ,FALSE,Industry,Male ,Ages 70-75 ,87
+70,Computer and mathematical scientists ,TRUE,Academic,Male ,Ages 29 or younger ,27
+71,Computer and mathematical scientists ,TRUE,Academic,Male ,Ages 30-34 ,241
+72,Computer and mathematical scientists ,TRUE,Academic,Male ,Ages 35-39 ,347
+73,Computer and mathematical scientists ,TRUE,Academic,Male ,Ages 40-44 ,286
+74,Computer and mathematical scientists ,TRUE,Academic,Male ,Ages 45-49 ,271
+75,Computer and mathematical scientists ,TRUE,Academic,Male ,Ages 50-54 ,271
+76,Computer and mathematical scientists ,TRUE,Academic,Male ,Ages 55-59 ,261
+77,Computer and mathematical scientists ,TRUE,Academic,Male ,Ages 60-64 ,232
+78,Computer and mathematical scientists ,TRUE,Academic,Male ,Ages 65-69 ,153
+79,Computer and mathematical scientists ,TRUE,Academic,Male ,Ages 70-75 ,114
+80,Engineers ,FALSE,Industry,Female ,Ages 29 or younger ,29
+81,Engineers ,FALSE,Industry,Female ,Ages 30-34 ,251
+82,Engineers ,FALSE,Industry,Female ,Ages 35-39 ,265
+83,Engineers ,FALSE,Industry,Female ,Ages 40-44 ,182
+84,Engineers ,FALSE,Industry,Female ,Ages 45-49 ,132
+85,Engineers ,FALSE,Industry,Female ,Ages 50-54 ,101
+86,Engineers ,FALSE,Industry,Female ,Ages 55-59 ,79
+87,Engineers ,FALSE,Industry,Female ,Ages 60-64 ,34
+88,Engineers ,FALSE,Industry,Female ,Ages 65-69 ,6
+89,Engineers ,FALSE,Industry,Female ,Ages 70-75 ,5
+90,Engineers ,TRUE,Academic,Female ,Ages 29 or younger ,12
+91,Engineers ,TRUE,Academic,Female ,Ages 30-34 ,133
+92,Engineers ,TRUE,Academic,Female ,Ages 35-39 ,174
+93,Engineers ,TRUE,Academic,Female ,Ages 40-44 ,140
+94,Engineers ,TRUE,Academic,Female ,Ages 45-49 ,97
+95,Engineers ,TRUE,Academic,Female ,Ages 50-54 ,80
+96,Engineers ,TRUE,Academic,Female ,Ages 55-59 ,60
+97,Engineers ,TRUE,Academic,Female ,Ages 60-64 ,31
+98,Engineers ,TRUE,Academic,Female ,Ages 65-69 ,14
+99,Engineers ,TRUE,Academic,Female ,Ages 70-75 ,2
+100,Engineers ,FALSE,Industry,Male ,Ages 29 or younger ,72
+101,Engineers ,FALSE,Industry,Male ,Ages 30-34 ,619
+102,Engineers ,FALSE,Industry,Male ,Ages 35-39 ,692
+103,Engineers ,FALSE,Industry,Male ,Ages 40-44 ,543
+104,Engineers ,FALSE,Industry,Male ,Ages 45-49 ,536
+105,Engineers ,FALSE,Industry,Male ,Ages 50-54 ,495
+106,Engineers ,FALSE,Industry,Male ,Ages 55-59 ,532
+107,Engineers ,FALSE,Industry,Male ,Ages 60-64 ,347
+108,Engineers ,FALSE,Industry,Male ,Ages 65-69 ,207
+109,Engineers ,FALSE,Industry,Male ,Ages 70-75 ,151
+110,Engineers ,TRUE,Academic,Male ,Ages 29 or younger ,26
+111,Engineers ,TRUE,Academic,Male ,Ages 30-34 ,307
+112,Engineers ,TRUE,Academic,Male ,Ages 35-39 ,480
+113,Engineers ,TRUE,Academic,Male ,Ages 40-44 ,358
+114,Engineers ,TRUE,Academic,Male ,Ages 45-49 ,293
+115,Engineers ,TRUE,Academic,Male ,Ages 50-54 ,335
+116,Engineers ,TRUE,Academic,Male ,Ages 55-59 ,376
+117,Engineers ,TRUE,Academic,Male ,Ages 60-64 ,323
+118,Engineers ,TRUE,Academic,Male ,Ages 65-69 ,170
+119,Engineers ,TRUE,Academic,Male ,Ages 70-75 ,103
+140,Non-S&E Occupations ,FALSE,Industry,Female ,Ages 29 or younger ,36
+141,Non-S&E Occupations ,FALSE,Industry,Female ,Ages 30-34 ,370
+142,Non-S&E Occupations ,FALSE,Industry,Female ,Ages 35-39 ,488
+143,Non-S&E Occupations ,FALSE,Industry,Female ,Ages 40-44 ,510
+144,Non-S&E Occupations ,FALSE,Industry,Female ,Ages 45-49 ,513
+145,Non-S&E Occupations ,FALSE,Industry,Female ,Ages 50-54 ,479
+146,Non-S&E Occupations ,FALSE,Industry,Female ,Ages 55-59 ,421
+147,Non-S&E Occupations ,FALSE,Industry,Female ,Ages 60-64 ,355
+148,Non-S&E Occupations ,FALSE,Industry,Female ,Ages 65-69 ,270
+149,Non-S&E Occupations ,FALSE,Industry,Female ,Ages 70-75 ,163
+150,Non-S&E Occupations ,TRUE,Academic,Female ,Ages 29 or younger ,11
+151,Non-S&E Occupations ,TRUE,Academic,Female ,Ages 30-34 ,140
+152,Non-S&E Occupations ,TRUE,Academic,Female ,Ages 35-39 ,297
+153,Non-S&E Occupations ,TRUE,Academic,Female ,Ages 40-44 ,292
+154,Non-S&E Occupations ,TRUE,Academic,Female ,Ages 45-49 ,332
+155,Non-S&E Occupations ,TRUE,Academic,Female ,Ages 50-54 ,324
+156,Non-S&E Occupations ,TRUE,Academic,Female ,Ages 55-59 ,293
+157,Non-S&E Occupations ,TRUE,Academic,Female ,Ages 60-64 ,291
+158,Non-S&E Occupations ,TRUE,Academic,Female ,Ages 65-69 ,158
+159,Non-S&E Occupations ,TRUE,Academic,Female ,Ages 70-75 ,67
+160,Non-S&E Occupations ,FALSE,Industry,Male ,Ages 29 or younger ,23
+161,Non-S&E Occupations ,FALSE,Industry,Male ,Ages 30-34 ,203
+162,Non-S&E Occupations ,FALSE,Industry,Male ,Ages 35-39 ,417
+163,Non-S&E Occupations ,FALSE,Industry,Male ,Ages 40-44 ,442
+164,Non-S&E Occupations ,FALSE,Industry,Male ,Ages 45-49 ,552
+165,Non-S&E Occupations ,FALSE,Industry,Male ,Ages 50-54 ,618
+166,Non-S&E Occupations ,FALSE,Industry,Male ,Ages 55-59 ,639
+167,Non-S&E Occupations ,FALSE,Industry,Male ,Ages 60-64 ,570
+168,Non-S&E Occupations ,FALSE,Industry,Male ,Ages 65-69 ,488
+169,Non-S&E Occupations ,FALSE,Industry,Male ,Ages 70-75 ,403
+170,Non-S&E Occupations ,TRUE,Academic,Male ,Ages 29 or younger ,6
+171,Non-S&E Occupations ,TRUE,Academic,Male ,Ages 30-34 ,68
+172,Non-S&E Occupations ,TRUE,Academic,Male ,Ages 35-39 ,169
+173,Non-S&E Occupations ,TRUE,Academic,Male ,Ages 40-44 ,213
+174,Non-S&E Occupations ,TRUE,Academic,Male ,Ages 45-49 ,268
+175,Non-S&E Occupations ,TRUE,Academic,Male ,Ages 50-54 ,331
+176,Non-S&E Occupations ,TRUE,Academic,Male ,Ages 55-59 ,377
+177,Non-S&E Occupations ,TRUE,Academic,Male ,Ages 60-64 ,326
+178,Non-S&E Occupations ,TRUE,Academic,Male ,Ages 65-69 ,226
+179,Non-S&E Occupations ,TRUE,Academic,Male ,Ages 70-75 ,136
+180,Physical and related scientists ,FALSE,Industry,Female ,Ages 29 or younger ,23
+181,Physical and related scientists ,FALSE,Industry,Female ,Ages 30-34 ,220
+182,Physical and related scientists ,FALSE,Industry,Female ,Ages 35-39 ,189
+183,Physical and related scientists ,FALSE,Industry,Female ,Ages 40-44 ,186
+184,Physical and related scientists ,FALSE,Industry,Female ,Ages 45-49 ,121
+185,Physical and related scientists ,FALSE,Industry,Female ,Ages 50-54 ,123
+186,Physical and related scientists ,FALSE,Industry,Female ,Ages 55-59 ,103
+187,Physical and related scientists ,FALSE,Industry,Female ,Ages 60-64 ,77
+188,Physical and related scientists ,FALSE,Industry,Female ,Ages 65-69 ,25
+189,Physical and related scientists ,FALSE,Industry,Female ,Ages 70-75 ,11
+190,Physical and related scientists ,TRUE,Academic,Female ,Ages 29 or younger ,31
+191,Physical and related scientists ,TRUE,Academic,Female ,Ages 30-34 ,261
+192,Physical and related scientists ,TRUE,Academic,Female ,Ages 35-39 ,390
+193,Physical and related scientists ,TRUE,Academic,Female ,Ages 40-44 ,285
+194,Physical and related scientists ,TRUE,Academic,Female ,Ages 45-49 ,227
+195,Physical and related scientists ,TRUE,Academic,Female ,Ages 50-54 ,162
+196,Physical and related scientists ,TRUE,Academic,Female ,Ages 55-59 ,152
+197,Physical and related scientists ,TRUE,Academic,Female ,Ages 60-64 ,103
+198,Physical and related scientists ,TRUE,Academic,Female ,Ages 65-69 ,47
+199,Physical and related scientists ,TRUE,Academic,Female ,Ages 70-75 ,15
+200,Physical and related scientists ,FALSE,Industry,Male ,Ages 29 or younger ,29
+201,Physical and related scientists ,FALSE,Industry,Male ,Ages 30-34 ,283
+202,Physical and related scientists ,FALSE,Industry,Male ,Ages 35-39 ,385
+203,Physical and related scientists ,FALSE,Industry,Male ,Ages 40-44 ,322
+204,Physical and related scientists ,FALSE,Industry,Male ,Ages 45-49 ,303
+205,Physical and related scientists ,FALSE,Industry,Male ,Ages 50-54 ,328
+206,Physical and related scientists ,FALSE,Industry,Male ,Ages 55-59 ,320
+207,Physical and related scientists ,FALSE,Industry,Male ,Ages 60-64 ,293
+208,Physical and related scientists ,FALSE,Industry,Male ,Ages 65-69 ,245
+209,Physical and related scientists ,FALSE,Industry,Male ,Ages 70-75 ,155
+210,Physical and related scientists ,TRUE,Academic,Male ,Ages 29 or younger ,39
+211,Physical and related scientists ,TRUE,Academic,Male ,Ages 30-34 ,357
+212,Physical and related scientists ,TRUE,Academic,Male ,Ages 35-39 ,533
+213,Physical and related scientists ,TRUE,Academic,Male ,Ages 40-44 ,454
+214,Physical and related scientists ,TRUE,Academic,Male ,Ages 45-49 ,397
+215,Physical and related scientists ,TRUE,Academic,Male ,Ages 50-54 ,401
+216,Physical and related scientists ,TRUE,Academic,Male ,Ages 55-59 ,414
+217,Physical and related scientists ,TRUE,Academic,Male ,Ages 60-64 ,357
+218,Physical and related scientists ,TRUE,Academic,Male ,Ages 65-69 ,228
+219,Physical and related scientists ,TRUE,Academic,Male ,Ages 70-75 ,184
+220,S&E related occupations ,FALSE,Industry,Female ,Ages 29 or younger ,13
+221,S&E related occupations ,FALSE,Industry,Female ,Ages 30-34 ,190
+222,S&E related occupations ,FALSE,Industry,Female ,Ages 35-39 ,306
+223,S&E related occupations ,FALSE,Industry,Female ,Ages 40-44 ,286
+224,S&E related occupations ,FALSE,Industry,Female ,Ages 45-49 ,277
+225,S&E related occupations ,FALSE,Industry,Female ,Ages 50-54 ,276
+226,S&E related occupations ,FALSE,Industry,Female ,Ages 55-59 ,236
+227,S&E related occupations ,FALSE,Industry,Female ,Ages 60-64 ,205
+228,S&E related occupations ,FALSE,Industry,Female ,Ages 65-69 ,99
+229,S&E related occupations ,FALSE,Industry,Female ,Ages 70-75 ,56
+230,S&E related occupations ,TRUE,Academic,Female ,Ages 29 or younger ,20
+231,S&E related occupations ,TRUE,Academic,Female ,Ages 30-34 ,179
+232,S&E related occupations ,TRUE,Academic,Female ,Ages 35-39 ,292
+233,S&E related occupations ,TRUE,Academic,Female ,Ages 40-44 ,250
+234,S&E related occupations ,TRUE,Academic,Female ,Ages 45-49 ,213
+235,S&E related occupations ,TRUE,Academic,Female ,Ages 50-54 ,196
+236,S&E related occupations ,TRUE,Academic,Female ,Ages 55-59 ,206
+237,S&E related occupations ,TRUE,Academic,Female ,Ages 60-64 ,192
+238,S&E related occupations ,TRUE,Academic,Female ,Ages 65-69 ,121
+239,S&E related occupations ,TRUE,Academic,Female ,Ages 70-75 ,39
+240,S&E related occupations ,FALSE,Industry,Male ,Ages 29 or younger ,11
+241,S&E related occupations ,FALSE,Industry,Male ,Ages 30-34 ,207
+242,S&E related occupations ,FALSE,Industry,Male ,Ages 35-39 ,312
+243,S&E related occupations ,FALSE,Industry,Male ,Ages 40-44 ,316
+244,S&E related occupations ,FALSE,Industry,Male ,Ages 45-49 ,415
+245,S&E related occupations ,FALSE,Industry,Male ,Ages 50-54 ,424
+246,S&E related occupations ,FALSE,Industry,Male ,Ages 55-59 ,394
+247,S&E related occupations ,FALSE,Industry,Male ,Ages 60-64 ,332
+248,S&E related occupations ,FALSE,Industry,Male ,Ages 65-69 ,173
+249,S&E related occupations ,FALSE,Industry,Male ,Ages 70-75 ,115
+250,S&E related occupations ,TRUE,Academic,Male ,Ages 29 or younger ,11
+251,S&E related occupations ,TRUE,Academic,Male ,Ages 30-34 ,130
+252,S&E related occupations ,TRUE,Academic,Male ,Ages 35-39 ,202
+253,S&E related occupations ,TRUE,Academic,Male ,Ages 40-44 ,165
+254,S&E related occupations ,TRUE,Academic,Male ,Ages 45-49 ,167
+255,S&E related occupations ,TRUE,Academic,Male ,Ages 50-54 ,150
+256,S&E related occupations ,TRUE,Academic,Male ,Ages 55-59 ,138
+257,S&E related occupations ,TRUE,Academic,Male ,Ages 60-64 ,141
+258,S&E related occupations ,TRUE,Academic,Male ,Ages 65-69 ,101
+259,S&E related occupations ,TRUE,Academic,Male ,Ages 70-75 ,40
+260,Social and related scientists ,FALSE,Industry,Female ,Ages 29 or younger ,13
+261,Social and related scientists ,FALSE,Industry,Female ,Ages 30-34 ,276
+262,Social and related scientists ,FALSE,Industry,Female ,Ages 35-39 ,406
+263,Social and related scientists ,FALSE,Industry,Female ,Ages 40-44 ,362
+264,Social and related scientists ,FALSE,Industry,Female ,Ages 45-49 ,307
+265,Social and related scientists ,FALSE,Industry,Female ,Ages 50-54 ,283
+266,Social and related scientists ,FALSE,Industry,Female ,Ages 55-59 ,271
+267,Social and related scientists ,FALSE,Industry,Female ,Ages 60-64 ,240
+268,Social and related scientists ,FALSE,Industry,Female ,Ages 65-69 ,218
+269,Social and related scientists ,FALSE,Industry,Female ,Ages 70-75 ,149
+270,Social and related scientists ,TRUE,Academic,Female ,Ages 29 or younger ,37
+271,Social and related scientists ,TRUE,Academic,Female ,Ages 30-34 ,443
+272,Social and related scientists ,TRUE,Academic,Female ,Ages 35-39 ,714
+273,Social and related scientists ,TRUE,Academic,Female ,Ages 40-44 ,621
+274,Social and related scientists ,TRUE,Academic,Female ,Ages 45-49 ,601
+275,Social and related scientists ,TRUE,Academic,Female ,Ages 50-54 ,433
+276,Social and related scientists ,TRUE,Academic,Female ,Ages 55-59 ,341
+277,Social and related scientists ,TRUE,Academic,Female ,Ages 60-64 ,322
+278,Social and related scientists ,TRUE,Academic,Female ,Ages 65-69 ,208
+279,Social and related scientists ,TRUE,Academic,Female ,Ages 70-75 ,94
+280,Social and related scientists ,FALSE,Industry,Male ,Ages 29 or younger ,5
+281,Social and related scientists ,FALSE,Industry,Male ,Ages 30-34 ,98
+282,Social and related scientists ,FALSE,Industry,Male ,Ages 35-39 ,157
+283,Social and related scientists ,FALSE,Industry,Male ,Ages 40-44 ,143
+284,Social and related scientists ,FALSE,Industry,Male ,Ages 45-49 ,160
+285,Social and related scientists ,FALSE,Industry,Male ,Ages 50-54 ,149
+286,Social and related scientists ,FALSE,Industry,Male ,Ages 55-59 ,152
+287,Social and related scientists ,FALSE,Industry,Male ,Ages 60-64 ,187
+288,Social and related scientists ,FALSE,Industry,Male ,Ages 65-69 ,241
+289,Social and related scientists ,FALSE,Industry,Male ,Ages 70-75 ,165
+290,Social and related scientists ,TRUE,Academic,Male ,Ages 29 or younger ,14
+291,Social and related scientists ,TRUE,Academic,Male ,Ages 30-34 ,215
+292,Social and related scientists ,TRUE,Academic,Male ,Ages 35-39 ,429
+293,Social and related scientists ,TRUE,Academic,Male ,Ages 40-44 ,440
+294,Social and related scientists ,TRUE,Academic,Male ,Ages 45-49 ,428
+295,Social and related scientists ,TRUE,Academic,Male ,Ages 50-54 ,321
+296,Social and related scientists ,TRUE,Academic,Male ,Ages 55-59 ,334
+297,Social and related scientists ,TRUE,Academic,Male ,Ages 60-64 ,347
+298,Social and related scientists ,TRUE,Academic,Male ,Ages 65-69 ,296
+299,Social and related scientists ,TRUE,Academic,Male ,Ages 70-75 ,193

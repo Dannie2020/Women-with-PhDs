@@ -1,0 +1,141 @@
+Principal Job Category,ACADEMIA,GENDER,AGEGRP,Count
+"Biological, agricultural and other life scientists ",FALSE,Female ,Ages 29 or younger ,72
+"Biological, agricultural and other life scientists ",FALSE,Female ,Ages 30-34 ,636
+"Biological, agricultural and other life scientists ",FALSE,Female ,Ages 35-39 ,707
+"Biological, agricultural and other life scientists ",FALSE,Female ,Ages 40-44 ,477
+"Biological, agricultural and other life scientists ",FALSE,Female ,Ages 45-49 ,403
+"Biological, agricultural and other life scientists ",FALSE,Female ,Ages 50-54 ,252
+"Biological, agricultural and other life scientists ",FALSE,Female ,Ages 55-59 ,224
+"Biological, agricultural and other life scientists ",FALSE,Female ,Ages 60-64 ,186
+"Biological, agricultural and other life scientists ",FALSE,Female ,Ages 65-69 ,76
+"Biological, agricultural and other life scientists ",FALSE,Female ,Ages 70-75 ,19
+"Biological, agricultural and other life scientists ",FALSE,Male ,Ages 29 or younger ,28
+"Biological, agricultural and other life scientists ",FALSE,Male ,Ages 30-34 ,350
+"Biological, agricultural and other life scientists ",FALSE,Male ,Ages 35-39 ,509
+"Biological, agricultural and other life scientists ",FALSE,Male ,Ages 40-44 ,505
+"Biological, agricultural and other life scientists ",FALSE,Male ,Ages 45-49 ,375
+"Biological, agricultural and other life scientists ",FALSE,Male ,Ages 50-54 ,389
+"Biological, agricultural and other life scientists ",FALSE,Male ,Ages 55-59 ,393
+"Biological, agricultural and other life scientists ",FALSE,Male ,Ages 60-64 ,373
+"Biological, agricultural and other life scientists ",FALSE,Male ,Ages 65-69 ,200
+"Biological, agricultural and other life scientists ",FALSE,Male ,Ages 70-75 ,117
+Computer and mathematical scientists ,FALSE,Female ,Ages 29 or younger ,27
+Computer and mathematical scientists ,FALSE,Female ,Ages 30-34 ,240
+Computer and mathematical scientists ,FALSE,Female ,Ages 35-39 ,240
+Computer and mathematical scientists ,FALSE,Female ,Ages 40-44 ,197
+Computer and mathematical scientists ,FALSE,Female ,Ages 45-49 ,129
+Computer and mathematical scientists ,FALSE,Female ,Ages 50-54 ,119
+Computer and mathematical scientists ,FALSE,Female ,Ages 55-59 ,76
+Computer and mathematical scientists ,FALSE,Female ,Ages 60-64 ,59
+Computer and mathematical scientists ,FALSE,Female ,Ages 65-69 ,33
+Computer and mathematical scientists ,FALSE,Female ,Ages 70-75 ,5
+Computer and mathematical scientists ,FALSE,Male ,Ages 29 or younger ,73
+Computer and mathematical scientists ,FALSE,Male ,Ages 30-34 ,543
+Computer and mathematical scientists ,FALSE,Male ,Ages 35-39 ,615
+Computer and mathematical scientists ,FALSE,Male ,Ages 40-44 ,416
+Computer and mathematical scientists ,FALSE,Male ,Ages 45-49 ,361
+Computer and mathematical scientists ,FALSE,Male ,Ages 50-54 ,365
+Computer and mathematical scientists ,FALSE,Male ,Ages 55-59 ,310
+Computer and mathematical scientists ,FALSE,Male ,Ages 60-64 ,206
+Computer and mathematical scientists ,FALSE,Male ,Ages 65-69 ,136
+Computer and mathematical scientists ,FALSE,Male ,Ages 70-75 ,87
+Engineers ,FALSE,Female ,Ages 29 or younger ,29
+Engineers ,FALSE,Female ,Ages 30-34 ,251
+Engineers ,FALSE,Female ,Ages 35-39 ,265
+Engineers ,FALSE,Female ,Ages 40-44 ,182
+Engineers ,FALSE,Female ,Ages 45-49 ,132
+Engineers ,FALSE,Female ,Ages 50-54 ,101
+Engineers ,FALSE,Female ,Ages 55-59 ,79
+Engineers ,FALSE,Female ,Ages 60-64 ,34
+Engineers ,FALSE,Female ,Ages 65-69 ,6
+Engineers ,FALSE,Female ,Ages 70-75 ,5
+Engineers ,FALSE,Male ,Ages 29 or younger ,72
+Engineers ,FALSE,Male ,Ages 30-34 ,619
+Engineers ,FALSE,Male ,Ages 35-39 ,692
+Engineers ,FALSE,Male ,Ages 40-44 ,543
+Engineers ,FALSE,Male ,Ages 45-49 ,536
+Engineers ,FALSE,Male ,Ages 50-54 ,495
+Engineers ,FALSE,Male ,Ages 55-59 ,532
+Engineers ,FALSE,Male ,Ages 60-64 ,347
+Engineers ,FALSE,Male ,Ages 65-69 ,207
+Engineers ,FALSE,Male ,Ages 70-75 ,151
+Non-S&E Occupations ,FALSE,Female ,Ages 29 or younger ,36
+Non-S&E Occupations ,FALSE,Female ,Ages 30-34 ,370
+Non-S&E Occupations ,FALSE,Female ,Ages 35-39 ,488
+Non-S&E Occupations ,FALSE,Female ,Ages 40-44 ,510
+Non-S&E Occupations ,FALSE,Female ,Ages 45-49 ,513
+Non-S&E Occupations ,FALSE,Female ,Ages 50-54 ,479
+Non-S&E Occupations ,FALSE,Female ,Ages 55-59 ,421
+Non-S&E Occupations ,FALSE,Female ,Ages 60-64 ,355
+Non-S&E Occupations ,FALSE,Female ,Ages 65-69 ,270
+Non-S&E Occupations ,FALSE,Female ,Ages 70-75 ,163
+Non-S&E Occupations ,FALSE,Male ,Ages 29 or younger ,23
+Non-S&E Occupations ,FALSE,Male ,Ages 30-34 ,203
+Non-S&E Occupations ,FALSE,Male ,Ages 35-39 ,417
+Non-S&E Occupations ,FALSE,Male ,Ages 40-44 ,442
+Non-S&E Occupations ,FALSE,Male ,Ages 45-49 ,552
+Non-S&E Occupations ,FALSE,Male ,Ages 50-54 ,618
+Non-S&E Occupations ,FALSE,Male ,Ages 55-59 ,639
+Non-S&E Occupations ,FALSE,Male ,Ages 60-64 ,570
+Non-S&E Occupations ,FALSE,Male ,Ages 65-69 ,488
+Non-S&E Occupations ,FALSE,Male ,Ages 70-75 ,403
+Physical and related scientists ,FALSE,Female ,Ages 29 or younger ,23
+Physical and related scientists ,FALSE,Female ,Ages 30-34 ,220
+Physical and related scientists ,FALSE,Female ,Ages 35-39 ,189
+Physical and related scientists ,FALSE,Female ,Ages 40-44 ,186
+Physical and related scientists ,FALSE,Female ,Ages 45-49 ,121
+Physical and related scientists ,FALSE,Female ,Ages 50-54 ,123
+Physical and related scientists ,FALSE,Female ,Ages 55-59 ,103
+Physical and related scientists ,FALSE,Female ,Ages 60-64 ,77
+Physical and related scientists ,FALSE,Female ,Ages 65-69 ,25
+Physical and related scientists ,FALSE,Female ,Ages 70-75 ,11
+Physical and related scientists ,FALSE,Male ,Ages 29 or younger ,29
+Physical and related scientists ,FALSE,Male ,Ages 30-34 ,283
+Physical and related scientists ,FALSE,Male ,Ages 35-39 ,385
+Physical and related scientists ,FALSE,Male ,Ages 40-44 ,322
+Physical and related scientists ,FALSE,Male ,Ages 45-49 ,303
+Physical and related scientists ,FALSE,Male ,Ages 50-54 ,328
+Physical and related scientists ,FALSE,Male ,Ages 55-59 ,320
+Physical and related scientists ,FALSE,Male ,Ages 60-64 ,293
+Physical and related scientists ,FALSE,Male ,Ages 65-69 ,245
+Physical and related scientists ,FALSE,Male ,Ages 70-75 ,155
+S&E related occupations ,FALSE,Female ,Ages 29 or younger ,13
+S&E related occupations ,FALSE,Female ,Ages 30-34 ,190
+S&E related occupations ,FALSE,Female ,Ages 35-39 ,306
+S&E related occupations ,FALSE,Female ,Ages 40-44 ,286
+S&E related occupations ,FALSE,Female ,Ages 45-49 ,277
+S&E related occupations ,FALSE,Female ,Ages 50-54 ,276
+S&E related occupations ,FALSE,Female ,Ages 55-59 ,236
+S&E related occupations ,FALSE,Female ,Ages 60-64 ,205
+S&E related occupations ,FALSE,Female ,Ages 65-69 ,99
+S&E related occupations ,FALSE,Female ,Ages 70-75 ,56
+S&E related occupations ,FALSE,Male ,Ages 29 or younger ,11
+S&E related occupations ,FALSE,Male ,Ages 30-34 ,207
+S&E related occupations ,FALSE,Male ,Ages 35-39 ,312
+S&E related occupations ,FALSE,Male ,Ages 40-44 ,316
+S&E related occupations ,FALSE,Male ,Ages 45-49 ,415
+S&E related occupations ,FALSE,Male ,Ages 50-54 ,424
+S&E related occupations ,FALSE,Male ,Ages 55-59 ,394
+S&E related occupations ,FALSE,Male ,Ages 60-64 ,332
+S&E related occupations ,FALSE,Male ,Ages 65-69 ,173
+S&E related occupations ,FALSE,Male ,Ages 70-75 ,115
+Social and related scientists ,FALSE,Female ,Ages 29 or younger ,13
+Social and related scientists ,FALSE,Female ,Ages 30-34 ,276
+Social and related scientists ,FALSE,Female ,Ages 35-39 ,406
+Social and related scientists ,FALSE,Female ,Ages 40-44 ,362
+Social and related scientists ,FALSE,Female ,Ages 45-49 ,307
+Social and related scientists ,FALSE,Female ,Ages 50-54 ,283
+Social and related scientists ,FALSE,Female ,Ages 55-59 ,271
+Social and related scientists ,FALSE,Female ,Ages 60-64 ,240
+Social and related scientists ,FALSE,Female ,Ages 65-69 ,218
+Social and related scientists ,FALSE,Female ,Ages 70-75 ,149
+Social and related scientists ,FALSE,Male ,Ages 29 or younger ,5
+Social and related scientists ,FALSE,Male ,Ages 30-34 ,98
+Social and related scientists ,FALSE,Male ,Ages 35-39 ,157
+Social and related scientists ,FALSE,Male ,Ages 40-44 ,143
+Social and related scientists ,FALSE,Male ,Ages 45-49 ,160
+Social and related scientists ,FALSE,Male ,Ages 50-54 ,149
+Social and related scientists ,FALSE,Male ,Ages 55-59 ,152
+Social and related scientists ,FALSE,Male ,Ages 60-64 ,187
+Social and related scientists ,FALSE,Male ,Ages 65-69 ,241
+Social and related scientists ,FALSE,Male ,Ages 70-75 ,165

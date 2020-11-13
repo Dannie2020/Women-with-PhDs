@@ -1,0 +1,141 @@
+Principal Job Category,ACADEMIA,GENDER,AGEGRP,Count
+"Biological, agricultural and other life scientists ",TRUE,Female ,Ages 29 or younger ,70
+"Biological, agricultural and other life scientists ",TRUE,Female ,Ages 30-34 ,774
+"Biological, agricultural and other life scientists ",TRUE,Female ,Ages 35-39 ,921
+"Biological, agricultural and other life scientists ",TRUE,Female ,Ages 40-44 ,622
+"Biological, agricultural and other life scientists ",TRUE,Female ,Ages 45-49 ,436
+"Biological, agricultural and other life scientists ",TRUE,Female ,Ages 50-54 ,383
+"Biological, agricultural and other life scientists ",TRUE,Female ,Ages 55-59 ,297
+"Biological, agricultural and other life scientists ",TRUE,Female ,Ages 60-64 ,245
+"Biological, agricultural and other life scientists ",TRUE,Female ,Ages 65-69 ,110
+"Biological, agricultural and other life scientists ",TRUE,Female ,Ages 70-75 ,51
+"Biological, agricultural and other life scientists ",TRUE,Male ,Ages 29 or younger ,31
+"Biological, agricultural and other life scientists ",TRUE,Male ,Ages 30-34 ,582
+"Biological, agricultural and other life scientists ",TRUE,Male ,Ages 35-39 ,725
+"Biological, agricultural and other life scientists ",TRUE,Male ,Ages 40-44 ,649
+"Biological, agricultural and other life scientists ",TRUE,Male ,Ages 45-49 ,531
+"Biological, agricultural and other life scientists ",TRUE,Male ,Ages 50-54 ,472
+"Biological, agricultural and other life scientists ",TRUE,Male ,Ages 55-59 ,499
+"Biological, agricultural and other life scientists ",TRUE,Male ,Ages 60-64 ,457
+"Biological, agricultural and other life scientists ",TRUE,Male ,Ages 65-69 ,283
+"Biological, agricultural and other life scientists ",TRUE,Male ,Ages 70-75 ,129
+Computer and mathematical scientists ,TRUE,Female ,Ages 29 or younger ,12
+Computer and mathematical scientists ,TRUE,Female ,Ages 30-34 ,148
+Computer and mathematical scientists ,TRUE,Female ,Ages 35-39 ,171
+Computer and mathematical scientists ,TRUE,Female ,Ages 40-44 ,153
+Computer and mathematical scientists ,TRUE,Female ,Ages 45-49 ,146
+Computer and mathematical scientists ,TRUE,Female ,Ages 50-54 ,135
+Computer and mathematical scientists ,TRUE,Female ,Ages 55-59 ,85
+Computer and mathematical scientists ,TRUE,Female ,Ages 60-64 ,83
+Computer and mathematical scientists ,TRUE,Female ,Ages 65-69 ,46
+Computer and mathematical scientists ,TRUE,Female ,Ages 70-75 ,13
+Computer and mathematical scientists ,TRUE,Male ,Ages 29 or younger ,27
+Computer and mathematical scientists ,TRUE,Male ,Ages 30-34 ,241
+Computer and mathematical scientists ,TRUE,Male ,Ages 35-39 ,347
+Computer and mathematical scientists ,TRUE,Male ,Ages 40-44 ,286
+Computer and mathematical scientists ,TRUE,Male ,Ages 45-49 ,271
+Computer and mathematical scientists ,TRUE,Male ,Ages 50-54 ,271
+Computer and mathematical scientists ,TRUE,Male ,Ages 55-59 ,261
+Computer and mathematical scientists ,TRUE,Male ,Ages 60-64 ,232
+Computer and mathematical scientists ,TRUE,Male ,Ages 65-69 ,153
+Computer and mathematical scientists ,TRUE,Male ,Ages 70-75 ,114
+Engineers ,TRUE,Female ,Ages 29 or younger ,12
+Engineers ,TRUE,Female ,Ages 30-34 ,133
+Engineers ,TRUE,Female ,Ages 35-39 ,174
+Engineers ,TRUE,Female ,Ages 40-44 ,140
+Engineers ,TRUE,Female ,Ages 45-49 ,97
+Engineers ,TRUE,Female ,Ages 50-54 ,80
+Engineers ,TRUE,Female ,Ages 55-59 ,60
+Engineers ,TRUE,Female ,Ages 60-64 ,31
+Engineers ,TRUE,Female ,Ages 65-69 ,14
+Engineers ,TRUE,Female ,Ages 70-75 ,2
+Engineers ,TRUE,Male ,Ages 29 or younger ,26
+Engineers ,TRUE,Male ,Ages 30-34 ,307
+Engineers ,TRUE,Male ,Ages 35-39 ,480
+Engineers ,TRUE,Male ,Ages 40-44 ,358
+Engineers ,TRUE,Male ,Ages 45-49 ,293
+Engineers ,TRUE,Male ,Ages 50-54 ,335
+Engineers ,TRUE,Male ,Ages 55-59 ,376
+Engineers ,TRUE,Male ,Ages 60-64 ,323
+Engineers ,TRUE,Male ,Ages 65-69 ,170
+Engineers ,TRUE,Male ,Ages 70-75 ,103
+Non-S&E Occupations ,TRUE,Female ,Ages 29 or younger ,11
+Non-S&E Occupations ,TRUE,Female ,Ages 30-34 ,140
+Non-S&E Occupations ,TRUE,Female ,Ages 35-39 ,297
+Non-S&E Occupations ,TRUE,Female ,Ages 40-44 ,292
+Non-S&E Occupations ,TRUE,Female ,Ages 45-49 ,332
+Non-S&E Occupations ,TRUE,Female ,Ages 50-54 ,324
+Non-S&E Occupations ,TRUE,Female ,Ages 55-59 ,293
+Non-S&E Occupations ,TRUE,Female ,Ages 60-64 ,291
+Non-S&E Occupations ,TRUE,Female ,Ages 65-69 ,158
+Non-S&E Occupations ,TRUE,Female ,Ages 70-75 ,67
+Non-S&E Occupations ,TRUE,Male ,Ages 29 or younger ,6
+Non-S&E Occupations ,TRUE,Male ,Ages 30-34 ,68
+Non-S&E Occupations ,TRUE,Male ,Ages 35-39 ,169
+Non-S&E Occupations ,TRUE,Male ,Ages 40-44 ,213
+Non-S&E Occupations ,TRUE,Male ,Ages 45-49 ,268
+Non-S&E Occupations ,TRUE,Male ,Ages 50-54 ,331
+Non-S&E Occupations ,TRUE,Male ,Ages 55-59 ,377
+Non-S&E Occupations ,TRUE,Male ,Ages 60-64 ,326
+Non-S&E Occupations ,TRUE,Male ,Ages 65-69 ,226
+Non-S&E Occupations ,TRUE,Male ,Ages 70-75 ,136
+Physical and related scientists ,TRUE,Female ,Ages 29 or younger ,31
+Physical and related scientists ,TRUE,Female ,Ages 30-34 ,261
+Physical and related scientists ,TRUE,Female ,Ages 35-39 ,390
+Physical and related scientists ,TRUE,Female ,Ages 40-44 ,285
+Physical and related scientists ,TRUE,Female ,Ages 45-49 ,227
+Physical and related scientists ,TRUE,Female ,Ages 50-54 ,162
+Physical and related scientists ,TRUE,Female ,Ages 55-59 ,152
+Physical and related scientists ,TRUE,Female ,Ages 60-64 ,103
+Physical and related scientists ,TRUE,Female ,Ages 65-69 ,47
+Physical and related scientists ,TRUE,Female ,Ages 70-75 ,15
+Physical and related scientists ,TRUE,Male ,Ages 29 or younger ,39
+Physical and related scientists ,TRUE,Male ,Ages 30-34 ,357
+Physical and related scientists ,TRUE,Male ,Ages 35-39 ,533
+Physical and related scientists ,TRUE,Male ,Ages 40-44 ,454
+Physical and related scientists ,TRUE,Male ,Ages 45-49 ,397
+Physical and related scientists ,TRUE,Male ,Ages 50-54 ,401
+Physical and related scientists ,TRUE,Male ,Ages 55-59 ,414
+Physical and related scientists ,TRUE,Male ,Ages 60-64 ,357
+Physical and related scientists ,TRUE,Male ,Ages 65-69 ,228
+Physical and related scientists ,TRUE,Male ,Ages 70-75 ,184
+S&E related occupations ,TRUE,Female ,Ages 29 or younger ,20
+S&E related occupations ,TRUE,Female ,Ages 30-34 ,179
+S&E related occupations ,TRUE,Female ,Ages 35-39 ,292
+S&E related occupations ,TRUE,Female ,Ages 40-44 ,250
+S&E related occupations ,TRUE,Female ,Ages 45-49 ,213
+S&E related occupations ,TRUE,Female ,Ages 50-54 ,196
+S&E related occupations ,TRUE,Female ,Ages 55-59 ,206
+S&E related occupations ,TRUE,Female ,Ages 60-64 ,192
+S&E related occupations ,TRUE,Female ,Ages 65-69 ,121
+S&E related occupations ,TRUE,Female ,Ages 70-75 ,39
+S&E related occupations ,TRUE,Male ,Ages 29 or younger ,11
+S&E related occupations ,TRUE,Male ,Ages 30-34 ,130
+S&E related occupations ,TRUE,Male ,Ages 35-39 ,202
+S&E related occupations ,TRUE,Male ,Ages 40-44 ,165
+S&E related occupations ,TRUE,Male ,Ages 45-49 ,167
+S&E related occupations ,TRUE,Male ,Ages 50-54 ,150
+S&E related occupations ,TRUE,Male ,Ages 55-59 ,138
+S&E related occupations ,TRUE,Male ,Ages 60-64 ,141
+S&E related occupations ,TRUE,Male ,Ages 65-69 ,101
+S&E related occupations ,TRUE,Male ,Ages 70-75 ,40
+Social and related scientists ,TRUE,Female ,Ages 29 or younger ,37
+Social and related scientists ,TRUE,Female ,Ages 30-34 ,443
+Social and related scientists ,TRUE,Female ,Ages 35-39 ,714
+Social and related scientists ,TRUE,Female ,Ages 40-44 ,621
+Social and related scientists ,TRUE,Female ,Ages 45-49 ,601
+Social and related scientists ,TRUE,Female ,Ages 50-54 ,433
+Social and related scientists ,TRUE,Female ,Ages 55-59 ,341
+Social and related scientists ,TRUE,Female ,Ages 60-64 ,322
+Social and related scientists ,TRUE,Female ,Ages 65-69 ,208
+Social and related scientists ,TRUE,Female ,Ages 70-75 ,94
+Social and related scientists ,TRUE,Male ,Ages 29 or younger ,14
+Social and related scientists ,TRUE,Male ,Ages 30-34 ,215
+Social and related scientists ,TRUE,Male ,Ages 35-39 ,429
+Social and related scientists ,TRUE,Male ,Ages 40-44 ,440
+Social and related scientists ,TRUE,Male ,Ages 45-49 ,428
+Social and related scientists ,TRUE,Male ,Ages 50-54 ,321
+Social and related scientists ,TRUE,Male ,Ages 55-59 ,334
+Social and related scientists ,TRUE,Male ,Ages 60-64 ,347
+Social and related scientists ,TRUE,Male ,Ages 65-69 ,296
+Social and related scientists ,TRUE,Male ,Ages 70-75 ,193

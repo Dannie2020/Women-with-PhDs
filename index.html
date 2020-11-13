@@ -7,8 +7,13 @@
 </head>
 
 <body>
-    <h2>PhD Gender Counts across Academic Areas over Age</h2>
-    <form id="genderCountFilter">
+    <h1>Women with PhD</h1>
+    <h3>Authors:</h3>
+    <span><a href="https://danniegao.myportfolio.com/">Danting Gao,</a>&nbsp &nbsp
+        <a href="https://www.ericrawn.media/">Eric Rawn,</a>&nbsp &nbsp
+        <a href="https://profiles.stanford.edu/joy-doong">Joy Doong</a></span>
+    <h2>PhD Gender Parity across Academic/Industry Areas over Age</h2>
+    <!--<form id="genderCountFilter">
         <div id="genderCountRadio">
             <input type="radio" id="countAcademic" name="type" value="Academic" checked>
             <label for="academic">Academic</label>
@@ -16,10 +21,17 @@
             <label for="industry">Industry</label><br>
         </div>
     </form>
-    <!--<svg id="countContainer" height="950" width="1420">
+    <svg id="countContainer" height="950" width="1420">
         <g id="countPlotContainer" transform="translate(200,200)" />
     </svg>-->
-    <div id="vis"></div>
+    <div id="academicVis"></div>
+    <div id="industryVis"></div>
+    <div class="notes">
+        <li>Hover over the colored points to reveal the accurate values</li>
+        <li>Hover over the bars to reveal the accurate values</li>
+        <li>Click and drag on the scatter plot to see the count of male and female participants in that age group</li>
+    </div>
+    <div class="sectionBreak"><br></div>
 
     <h2>PhD Gender Salary Gap</h2>
     <form id="salaryFilter">
@@ -53,7 +65,8 @@
 
     <div class="notes">
         <li>Hover over the colored circles to reveal the accurate salary values</li>
-        <li>Use "Plot By" drop down to swtich between absolute salary values and gap values</li>
+        <li>Use the radio buttons to swtich between Academic and Industry dataset</li>
+        <li>Use "Plot By" drop down to swtich between absolute salary values and gap percentage values</li>
         <li>Use "Sort By" drop down to sort the list order</li>
     </div>
     <div class="sectionBreak"><br></div>
@@ -86,9 +99,10 @@
     </div>
     <div class="sectionBreak"><br></div>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
-<script src="https://cdn.jsdelivr.net/npm/vega-lite@4"></script>
-<script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-lite@4.17.0"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
+
 <script src="https://d3js.org/d3.v6.min.js"></script>
 <script src="js/salary.js"></script>
 <script src="js/fSalary.js"></script>
