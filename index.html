@@ -13,12 +13,12 @@
         <a href="https://www.ericrawn.media/">Eric Rawn,</a>&nbsp &nbsp
         <a href="https://profiles.stanford.edu/joy-doong">Joy Doong</a></span>
 
-    <h2>PhD Gender Parity across Academic/Industry Areas over Age</h2>
+    <h2>PhD Gender Parity across Academia/Industry Areas over Age</h2>
     <div id="academicVis"></div>
     <div id="industryVis"></div>
     <div class="notes">
-        <li>Click on the "Principal Job Category" legend to filter the count of male and female participants with the
-            corresponding legend</li>
+        <li>Click on the "Principal Job Category" legend to filter out the count of male and female participants with
+            the corresponding legend</li>
         <li>Hover over the colored points to reveal the accurate values</li>
         <li>Hover over the bars to reveal the accurate values</li>
         <li>Click and drag on the scatter plot to see the count of male and female participants (on the bar chart) in
@@ -30,8 +30,8 @@
     <h2>PhD Gender Salary Gap</h2>
     <form id="salaryFilter">
         <div id="salaryRadio">
-            <input type="radio" id="academic" name="type" value="Academic" checked>
-            <label for="academic">Academic</label>
+            <input type="radio" id="academia" name="type" value="Academia" checked>
+            <label for="academia">Academia</label>
             <input type="radio" id="industry" name="type" value="Industry">
             <label for="industry">Industry</label><br>
         </div>
@@ -47,7 +47,7 @@
             <label for="sortBy">Sort By:</label>
             <select id="sortBy">
                 <option value="Job Category">Job Category</option>
-                <option value="Widest Gap">Widest Gap</option>
+                <option value="Largest Gap">Largest Gap</option>
                 <option value="Highest Paid Men Job">Highest Paid Men Job</option>
                 <option value="Highest Paid Women Job">Highest Paid Women Job</option>
             </select>
@@ -62,6 +62,7 @@
         <li>Use the radio buttons to swtich between Academic and Industry dataset</li>
         <li>Use "Plot By" drop down to swtich between absolute salary values and gap percentage values</li>
         <li>Use "Sort By" drop down to sort the list order</li>
+        <li>The calculation of Average Salary Gap (%) is: (male salary - female salary) / male salary * 100%</li>
     </div>
     <div class="sectionBreak"><br></div>
 
@@ -70,8 +71,8 @@
         <div id="fOrderFilter">
             <label for="fOrderBy">Order By:</label>
             <select id="fOrderBy">
-                <option value="Job Category">Job Category</option>
-                <option value="≤29">≤29</option>
+                <option value="job">Job Category</option>
+                <option value="<30">&lt30</option>
                 <option value="30-34">30-34</option>
                 <option value="35-39">35-39</option>
                 <option value="40-44">40-44</option>

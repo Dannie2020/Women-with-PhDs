@@ -11,7 +11,7 @@ fSalaryLegend.append("rect").attr("x", 240).attr("y", 20).attr("width", 40).attr
 fSalaryLegend.append("rect").attr("x", 280).attr("y", 20).attr("width", 40).attr("height", 10).style("fill", "#66c2a5")
 fSalaryLegend.append("rect").attr("x", 320).attr("y", 20).attr("width", 40).attr("height", 10).style("fill", "#3288bd")
 fSalaryLegend.append("rect").attr("x", 360).attr("y", 20).attr("width", 40).attr("height", 10).style("fill", "#5e4fa2")
-fSalaryLegend.append("text").attr("x", 0).attr("y", 40).text("≤29").attr("class", "fSalaryLegendLabel").attr("alignment-baseline", "middle")
+fSalaryLegend.append("text").attr("x", 0).attr("y", 40).text("<30").attr("class", "fSalaryLegendLabel").attr("alignment-baseline", "middle")
 fSalaryLegend.append("text").attr("x", 40).attr("y", 40).text("30-34").attr("class", "fSalaryLegendLabel").attr("alignment-baseline", "middle")
 fSalaryLegend.append("text").attr("x", 80).attr("y", 40).text("35-39").attr("class", "fSalaryLegendLabel").attr("alignment-baseline", "middle")
 fSalaryLegend.append("text").attr("x", 120).attr("y", 40).text("40-44").attr("class", "fSalaryLegendLabel").attr("alignment-baseline", "middle")
@@ -40,15 +40,15 @@ let fSplotVars = ({
     plotWidth: 1000,
 })
 
-let dataByJob = [{ job: "Biological, agricultural and other life scientists", "<29": 57957.74, "30-34": 65885.81, "35-39": 71457, "40-44": 79495.9, "45-49": 88980.92, "50-54": 93996.85, "55-59": 109988.48, "60-64": 105464.03, "65-69": 90548.38, "70-75": 103414.28 },
-{ job: "Computer and mathematical scientists", "<29": 100230.76, "30-34": 99283.5, "35-39": 95895.37, "40-44": 108797.14, "45-49": 102876.36, "50-54": 106913.38, "55-59": 119515.52, "60-64": 99802.81, "65-69": 98455.69, "70-75": 77888.88 },
-{ job: "Engineers", "<29": 90902.43, "30-34": 88757.81, "35-39": 98027.33, "40-44": 97913.04, "45-49": 107567.68, "50-54": 117491.71, "55-59": 124273.38, "60-64": 125307.69, "65-69": 115200, "70-75": 138714.28 },
-{ job: "Non-S&E Occupations", "<29": 78148.93, "30-34": 81631.37, "35-39": 84682.8, "40-44": 99653.36, "45-49": 106338.46, "50-54": 116013.69, "55-59": 118668.06, "60-64": 108458.2, "65-69": 100212.61, "70-75": 73404.34 },
-{ job: "Physical and related scientists", "<29": 71666.66, "30-34": 76232.84, "35-39": 73860.1, "40-44": 85660.29, "45-49": 82396.55, "50-54": 98161.4, "55-59": 100070.58, "60-64": 98977.77, "65-69": 92750, "70-75": 97961.53 },
-{ job: "S&E related occupations", "<29": 68606.06, "30-34": 80246.61, "35-39": 92598.66, "40-44": 107061.56, "45-49": 109018.36, "50-54": 119220.33, "55-59": 109271.49, "60-64": 114478.58, "65-69": 98854.54, "70-75": 88052.63 },
-{ job: "Social and related scientists", "<29": 63360, "30-34": 72062.58, "35-39": 75049.1, "40-44": 83116.98, "45-49": 86538.54, "50-54": 91209.49, "55-59": 91326.79, "60-64": 91583.62, "65-69": 91384.97, "70-75": 77650.2 }]
+let dataByJob = [{ job: "Biological, agricultural and other life scientists", "<30": 57957.74, "30-34": 65885.81, "35-39": 71457, "40-44": 79495.9, "45-49": 88980.92, "50-54": 93996.85, "55-59": 109988.48, "60-64": 105464.03, "65-69": 90548.38, "70-75": 103414.28 },
+{ job: "Computer and mathematical scientists", "<30": 100230.76, "30-34": 99283.5, "35-39": 95895.37, "40-44": 108797.14, "45-49": 102876.36, "50-54": 106913.38, "55-59": 119515.52, "60-64": 99802.81, "65-69": 98455.69, "70-75": 77888.88 },
+{ job: "Engineers", "<30": 90902.43, "30-34": 88757.81, "35-39": 98027.33, "40-44": 97913.04, "45-49": 107567.68, "50-54": 117491.71, "55-59": 124273.38, "60-64": 125307.69, "65-69": 115200, "70-75": 138714.28 },
+{ job: "Non-S&E Occupations", "<30": 78148.93, "30-34": 81631.37, "35-39": 84682.8, "40-44": 99653.36, "45-49": 106338.46, "50-54": 116013.69, "55-59": 118668.06, "60-64": 108458.2, "65-69": 100212.61, "70-75": 73404.34 },
+{ job: "Physical and related scientists", "<30": 71666.66, "30-34": 76232.84, "35-39": 73860.1, "40-44": 85660.29, "45-49": 82396.55, "50-54": 98161.4, "55-59": 100070.58, "60-64": 98977.77, "65-69": 92750, "70-75": 97961.53 },
+{ job: "S&E related occupations", "<30": 68606.06, "30-34": 80246.61, "35-39": 92598.66, "40-44": 107061.56, "45-49": 109018.36, "50-54": 119220.33, "55-59": 109271.49, "60-64": 114478.58, "65-69": 98854.54, "70-75": 88052.63 },
+{ job: "Social and related scientists", "<30": 63360, "30-34": 72062.58, "35-39": 75049.1, "40-44": 83116.98, "45-49": 86538.54, "50-54": 91209.49, "55-59": 91326.79, "60-64": 91583.62, "65-69": 91384.97, "70-75": 77650.2 }]
 
-let keys = ["<29", "30-34", "35-39", "40-44", "45-49", "50-54", "55-59", "60-64", "65-69", "70-75"]
+let keys = ["<30", "30-34", "35-39", "40-44", "45-49", "50-54", "55-59", "60-64", "65-69", "70-75"]
 
 // create showData function
 function showData(data) {
@@ -56,7 +56,7 @@ function showData(data) {
     // create x axis
     let xScale = d3.scaleLinear()
         .range([0, fSplotVars.plotWidth])
-        .domain([0, d3.max(dataByJob, d => d3.max(keys, k => d[k]))])
+        .domain([0, 140000])
 
     let xAxis = d3.axisTop().scale(xScale)
         .tickFormat(function (d, i) {
@@ -108,31 +108,38 @@ function showData(data) {
         .range(d3.schemeSpectral[keys.length])
         .unknown("#ccc")
 
-    let g = fSplotContainer.append("g")
-        .attr("text-anchor", "end")
-        .style("font", "10px sans-serif")
-        .selectAll("g")
-        .data(dataByJob)
-        .join("g")
-        .attr("transform", (d, i) => `translate(0,${yScale(d.job)})`);
+    // plot Data
+    plotData(dataByJob);
+    function plotData(displayData) {
+        let g = fSplotContainer.append("g")
+            .attr("text-anchor", "end")
+            .style("font", "10px sans-serif")
+            .selectAll("g")
+            .data(displayData)
+            .join("g")
+            .attr("transform", (d, i) => `translate(0,${yScale(d.job)})`);
 
-    g.append("line")
-        .attr("stroke", "#aaa")
-        .attr("x1", d => xScale(d3.min(keys, k => d[k])))
-        .attr("x2", d => xScale(d3.max(keys, k => d[k])))
+        g.append("line")
+            .attr("stroke", "#aaa")
+            .attr("class", "plotLineF")
+            .attr("x1", d => xScale(d3.min(keys, k => d[k])))
+            .attr("x2", d => xScale(d3.max(keys, k => d[k])))
 
-    g.append("g")
-        .selectAll("circle")
-        .data(d => d3.cross(keys, [d]))
-        .join("circle")
-        .attr("cx", ([k, d]) => xScale(d[k]))
-        .attr("fill", ([k]) => color(k))
-        .attr("r", 6)
+        g.append("g")
+            .selectAll("circle")
+            .data(d => d3.cross(keys, [d]))
+            .join("circle")
+            .attr("class", "plotCircle")
+            .attr("cx", ([k, d]) => xScale(d[k]))
+            .attr("fill", ([k]) => color(k))
+            .attr("r", 6)
 
-    g.append("text")
-        .attr("dy", "0.35em")
-        .attr("x", d => xScale(d3.min(keys, k => d[k])) - 10)
-        .text((d, i) => d.job)
+        g.append("text")
+            .attr("dy", "0.35em")
+            .attr("class", "yLabels")
+            .attr("x", d => xScale(d3.min(keys, k => d[k])) - 10)
+            .text((d, i) => d.job)
+    }
 
     // add sorting
     d3.select("#fOrderBy")
@@ -142,11 +149,18 @@ function showData(data) {
         })
 
     function update(attribute) {
-        console.log(attribute);
         const index = d3.range(dataByJob.length);
-        const order = attribute === "Job Category" ? d3.ascending : d3.descending;
-        index.sort((i, j) => order(data[i][attribute], data[j][attribute]));
-        //fSplotContainer.update(d3.permute(data.map(d => d.job), index));
+        //console.log(index);
+        const order = attribute === "job" ? d3.ascending : d3.descending;
+        index.sort((i, j) => order(dataByJob[i][attribute], dataByJob[j][attribute]));
+        //console.log('attribute =', attribute);
+        let jobs = d3.permute(dataByJob.map(d => d.job), index);
+        yScale.domain(jobs);
+        dataByJob = d3.permute(dataByJob, index);
+        d3.selectAll(".plotLineF").remove();
+        d3.selectAll(".plotCircle").remove();
+        d3.selectAll(".yLabels").remove();
+        plotData(dataByJob);
     }
 
 }

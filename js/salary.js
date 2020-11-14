@@ -9,10 +9,12 @@ salaryContainer.append("text").attr("x", 500).attr("y", 60).text("Male").style("
 let data = d3.csv("data/salary_visual_data.csv", function (d) {
     return {
         job: d.N2OCPRNG,
-        fSalary: +d.FemaleSalary,
+        mainJob: d.N2OCPRMG,
+        fSalary: + d.FemaleSalary,
         mSalary: +d.MaleSalary,
-        gap: +d.Gap,
-        academia: d.ACADEMIA
+        relativeGap: +d.relativeGap,
+        absoluteGap: +d.absoluteGap,
+        academia: d.ACADEMIA,
     }
 }).then(showData)
 
@@ -30,15 +32,17 @@ function showData(data) {
     let displayData = data.filter(function (d) { return d.academia == "TRUE" })
     window.addEventListener("load", () => { drawData(displayData); }, false);
 
-    d3.select("#academic")
+    d3.select("#academia")
         .on("click", function () {
             displayData = data.filter(function (d) { return d.academia == "TRUE" });
             d3.selectAll(".plotLine").remove();
             d3.selectAll(".lollipop-female").remove();
             d3.selectAll(".lollipop-male").remove();
+            yScale.domain(displayData.map(function (d) { return d.job }));
+            yAxisGroup.call(yAxis);
             drawData(displayData);
-
-            if (d3.select("select").node().value == "Gap") {
+            document.getElementById("sortBy").selectedIndex = "0";
+            if (d3.select("select").node().value === "Gap") {
                 plotLollipops("Gap");
             }
         })
@@ -49,9 +53,11 @@ function showData(data) {
             d3.selectAll(".plotLine").remove();
             d3.selectAll(".lollipop-female").remove();
             d3.selectAll(".lollipop-male").remove();
+            yScale.domain(displayData.map(function (d) { return d.job }));
+            yAxisGroup.call(yAxis);
             drawData(displayData);
-
-            if (d3.select("select").node().value == "Gap") {
+            document.getElementById("sortBy").selectedIndex = "0";
+            if (d3.select("select").node().value === "Gap") {
                 plotLollipops("Gap");
             }
         })
@@ -78,9 +84,6 @@ function showData(data) {
         .attr("class", "x-axis")
         .call(xAxis)
 
-    xGap = d3.scaleLinear()
-        .domain(d3.min(data, d => d.gap), d3.max(data, d => d.gap))
-        .range([0, plotVars.plotWidth])
 
     // create x axis label
     plotContainer.append("text")
@@ -147,19 +150,20 @@ function showData(data) {
 
     // create y axis label
     plotContainer.append("text")
-        .attr("transform", "rotate(-90)")
-        .attr("y", 0 - 350)
-        .attr("x", 0 - (plotVars.plotHeight / 2))
+        //.attr("transform", "rotate(-90)")
+        //.attr("y", 0 - 350)
+        //.attr("x", 0 - (plotVars.plotHeight / 2))
+        .attr("y", 0 - 25)
+        .attr("x", 0 - 170)
         .attr("class", "label")
         .attr("dy", "1em")
         .style("text-anchor", "middle")
         .text("Principal Job Category/Sub-category")
 
-
-    function drawData(displayData) {
+    function drawData(toBeDisplayedData) {
         // lines
         plotContainer.selectAll("myline")
-            .data(displayData)
+            .data(toBeDisplayedData)
             .enter()
             .append("line")
             .attr("x1", function (d) { return xScale(d.fSalary); })
@@ -172,7 +176,7 @@ function showData(data) {
 
         // circles of female salaries
         plotContainer.selectAll("mycircle")
-            .data(displayData)
+            .data(toBeDisplayedData)
             .enter()
             .append("circle")
             .attr("cx", function (d) { return xScale(d.fSalary); })
@@ -186,7 +190,7 @@ function showData(data) {
 
         // circles of male salaries
         plotContainer.selectAll("mycircle")
-            .data(displayData)
+            .data(toBeDisplayedData)
             .enter()
             .append("circle")
             .attr("cx", function (d) { return xScale(d.mSalary); })
@@ -245,8 +249,8 @@ function showData(data) {
             plotLollipops(attribute);
         })
 
-    function plotLollipops(attribute) {
-        if (attribute == "Gap") {
+    function plotLollipops(a) {
+        if (a == "Gap") {
             xScale.domain([-100, 100])
             xAxis.scale(xScale)
                 .tickFormat(function (d, i) {
@@ -263,7 +267,7 @@ function showData(data) {
                 .transition()
                 .duration(500)
                 .attr("x1", 500)
-                .attr("x2", function (d) { return xScale(d.gap); })
+                .attr("x2", function (d) { return xScale(d.relativeGap); })
                 .attr("y1", function (d) { return yScale(d.job); })
                 .attr("y2", function (d) { return yScale(d.job); })
 
@@ -277,7 +281,7 @@ function showData(data) {
             d3.selectAll(".lollipop-male")
                 .transition()
                 .duration(500)
-                .attr("cx", function (d) { return xScale(d.gap); })
+                .attr("cx", function (d) { return xScale(d.relativeGap); })
                 .attr("cy", function (d) { return yScale(d.job); })
                 .attr("r", "6")
 
@@ -333,27 +337,41 @@ function showData(data) {
         })
 
     function sortLollipops(attribute) {
-        const index = d3.range(data.length);
+        const index = d3.range(displayData.length);
+        let plotByAttr = d3.select("#plotBy").property("value");
+        //console.log('plotByAttr =', plotByAttr);
         let order = "job";
         if (attribute === "Job Category") order = "job";
-        if (attribute === "Widest Gap") order = "gap";
+
+        if (attribute === "Largest Gap") {
+            if (plotByAttr === "Gap")
+                order = "relativeGap";
+            else
+                order = "absoluteGap";
+        }
         if (attribute === "Highest Paid Men Job") order = "mSalary";
         if (attribute === "Highest Paid Women Job") order = "fSalary";
-        index.sort((i, j) => d3.descending(data[i][order], data[j][order]));
-        console.log(attribute);
-        console.log(order);
-        //chart.update(d3.permute(data.map(d => d.job), index));
+        index.sort((i, j) => d3.descending(displayData[i][order], displayData[j][order]));
+        //console.log(attribute);
+        //console.log(order);
+        let jobs = d3.permute(displayData.map(d => d.job), index);
+        yScale.domain(jobs);
+        yAxisGroup.call(yAxis);
+        displayData = d3.permute(displayData, index);
+        //console.log(displayData);
+        plotLollipops(plotByAttr);
     }
+
 }
 
 // update sort by based on plot by
-const sorts = {
-    "Salary": [{ value: "Job Category", desc: "Job Category" }, { value: "Widest Gap", desc: "Widest Gap" }, { value: "Highest Paid Men Job", desc: "Highest Paid Men Job" }, { value: "Highest Paid Women Job", desc: "Highest Paid Women Job" }],
+/*const sorts = {
+    "Salary": [{ value: "Job Category", desc: "Job Category" }, { value: "Largest Gap", desc: "Largest Gap" }, { value: "Highest Paid Men Job", desc: "Highest Paid Men Job" }, { value: "Highest Paid Women Job", desc: "Highest Paid Women Job" }],
     "Gap": [{ value: "Job Category", desc: "Job Category" }, { value: "Ascending", desc: "Ascending" }, { value: "Descending", desc: "Descending" }]
 }
 
 const sort = document.getElementById("sortBy");
 document.getElementById("plotBy").addEventListener('change', function (e) {
     sort.innerHTML = sorts[this.value].reduce((acc, elem) => `${acc}<option value="${elem.value}">${elem.desc}</option>`, "");
-});
+});*/
 

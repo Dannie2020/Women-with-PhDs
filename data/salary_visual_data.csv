@@ -1,93 +1,93 @@
-,N2OCPRMG,N2OCPRNG,ACADEMIA,FemaleSalary,MaleSalary,Gap
-0,"Biological, agricultural and other life scientists ","Biological, agricultural and other life scientists ",FALSE,97073.39,109144.18,11.05
-1,"Biological, agricultural and other life scientists ","Biological, agricultural and other life scientists ",TRUE,69005.37,83955.02,17.8
-2,"Biological, agricultural and other life scientists ",Agricultural & food scientists ,FALSE,91287.17,103142.17,11.49
-3,"Biological, agricultural and other life scientists ",Agricultural & food scientists ,TRUE,69274.39,79895.83,13.29
-4,"Biological, agricultural and other life scientists ",Biological and medical scientists ,FALSE,98785.79,112324.72,12.05
-5,"Biological, agricultural and other life scientists ",Biological and medical scientists ,TRUE,64951.8,78579.77,17.34
-6,"Biological, agricultural and other life scientists ",Environmental life scientists ,FALSE,85976.74,88114.28,2.42
-7,"Biological, agricultural and other life scientists ",Environmental life scientists ,TRUE,61282.05,59488.37,-3.01
-8,"Biological, agricultural and other life scientists ",Postsecondary teachers - life and related sciences ,FALSE,73807.69,125268.29,41.08
-9,"Biological, agricultural and other life scientists ",Postsecondary teachers - life and related sciences ,TRUE,72419.84,88217.47,17.9
-10,Computer and mathematical scientists ,Computer and mathematical scientists ,FALSE,123071.11,137873.07,10.73
-11,Computer and mathematical scientists ,Computer and mathematical scientists ,TRUE,80150.2,87602.81,8.5
-12,Computer and mathematical scientists ,Computer and information scientists ,FALSE,124951.78,138644.86,9.87
-13,Computer and mathematical scientists ,Computer and information scientists ,TRUE,75192.3,96908.21,22.4
-14,Computer and mathematical scientists ,Mathematical scientists ,FALSE,121031.91,137273.39,11.83
-15,Computer and mathematical scientists ,Mathematical scientists ,TRUE,83221.23,86056.25,3.29
-16,Computer and mathematical scientists ,Postsecondary teachers - computer and math sciences ,FALSE,102166.66,80090.9,-27.56
-17,Computer and mathematical scientists ,Postsecondary teachers - computer and math sciences ,TRUE,80199.75,86688.45,7.48
-18,Engineers ,Engineers ,FALSE,112014.76,130112.06,13.9
-19,Engineers ,Engineers ,TRUE,88211.3,92099.6,4.22
-20,Engineers ,"Aerospace, aeronautical or astronautical engineers ",FALSE,123661.01,135509.43,8.74
-21,Engineers ,"Aerospace, aeronautical or astronautical engineers ",TRUE,115500,113250,-1.98
-22,Engineers ,Chemical engineers ,FALSE,108686.86,133698.11,18.7
-23,Engineers ,Chemical engineers ,TRUE,45800,63818.18,28.23
-24,Engineers ,"Civil, architectural or sanitary engineers ",FALSE,85288.46,101900,16.3
-25,Engineers ,"Civil, architectural or sanitary engineers ",TRUE,78052.63,71556.96,-9.07
-26,Engineers ,Electrical or computer hardware engineers ,FALSE,124017.34,142924.8,13.22
-27,Engineers ,Electrical or computer hardware engineers ,TRUE,90437.5,110298.96,18
-28,Engineers ,Industrial engineers ,FALSE,121384.61,126296.87,3.88
-29,Engineers ,Industrial engineers ,TRUE,86400,106888.88,19.16
-30,Engineers ,Mechanical engineers ,FALSE,111000,127025.82,12.61
-31,Engineers ,Mechanical engineers ,TRUE,60125,81864.4,26.55
-32,Engineers ,Other engineers ,FALSE,112649.46,129576.07,13.06
-33,Engineers ,Other engineers ,TRUE,86952.94,87419.91,0.53
-34,Engineers ,Postsecondary teachers - engineering ,FALSE,46666.66,91352.94,48.91
-35,Engineers ,Postsecondary teachers - engineering ,TRUE,89889.07,92720.21,3.05
-36,Non-S&E Occupations ,Non-S&E Occupations ,FALSE,102345.9,148781.4,31.21
-37,Non-S&E Occupations ,Non-S&E Occupations ,TRUE,99921.99,129483.01,22.83
-38,Non-S&E Occupations ,"Art, humanities and related occupations ",FALSE,63860.56,77678.73,17.78
-39,Non-S&E Occupations ,"Art, humanities and related occupations ",TRUE,63968.25,70550,9.32
-40,Non-S&E Occupations ,Management-related occupations ,FALSE,105951.06,138021.18,23.23
-41,Non-S&E Occupations ,Management-related occupations ,TRUE,74845.13,89115.94,16.01
-42,Non-S&E Occupations ,Non-S&E Managers ,FALSE,148851.74,187015.94,20.4
-43,Non-S&E Occupations ,Non-S&E Managers ,TRUE,143539.68,172883.69,16.97
-44,Non-S&E Occupations ,Non-S&E postsecondary teachers ,FALSE,66080,93470.58,29.3
-45,Non-S&E Occupations ,Non-S&E postsecondary teachers ,TRUE,84998.06,104589.34,18.73
-46,Non-S&E Occupations ,Non-S&E precollege teachers ,FALSE,48969.46,60718.75,19.35
-47,Non-S&E Occupations ,Non-S&E precollege teachers ,TRUE,89000,56333.33,-57.98
-48,Non-S&E Occupations ,Other non-S&E occupations ,FALSE,82863.63,110233.16,24.82
-49,Non-S&E Occupations ,Other non-S&E occupations ,TRUE,61652.17,72674.41,15.16
-50,Non-S&E Occupations ,Sales and marketing occupations ,FALSE,102119.4,112366.47,9.11
-51,Non-S&E Occupations ,Sales and marketing occupations ,TRUE,79000,87571.42,9.78
-52,Non-S&E Occupations ,Social services and related occupations ,FALSE,58423.67,61343.94,4.76
-53,Non-S&E Occupations ,Social services and related occupations ,TRUE,63468.75,64931.03,2.25
-54,Physical and related scientists ,Physical and related scientists ,FALSE,104414.65,119455.5,12.59
-55,Physical and related scientists ,Physical and related scientists ,TRUE,71906.15,82038.34,12.35
-56,Physical and related scientists ,"Chemists, except biochemists ",FALSE,102235.6,117659.89,13.1
-57,Physical and related scientists ,"Chemists, except biochemists ",TRUE,58075.75,71153.28,18.37
-58,Physical and related scientists ,"Earth scientists, geologists and oceanographers ",FALSE,103920.71,119744.18,13.21
-59,Physical and related scientists ,"Earth scientists, geologists and oceanographers ",TRUE,68809.75,79618.64,13.57
-60,Physical and related scientists ,Other physical & related scientists ,FALSE,108144.73,117375.32,7.86
-61,Physical and related scientists ,Other physical & related scientists ,TRUE,82697.67,79038.09,-4.63
-62,Physical and related scientists ,Physicists and astronomers ,FALSE,113364.28,124919.55,9.25
-63,Physical and related scientists ,Physicists and astronomers ,TRUE,67753.62,82098.48,17.47
-64,Physical and related scientists ,Postsecondary teachers - physical and related sciences ,FALSE,43307.69,77285.71,43.96
-65,Physical and related scientists ,Postsecondary teachers - physical and related sciences ,TRUE,72968.21,83095.44,12.18
-66,S&E related occupations ,S&E related occupations ,FALSE,113418.72,157280.47,27.88
-67,S&E related occupations ,S&E related occupations ,TRUE,92329.03,125161.44,26.23
-68,S&E related occupations ,Health-related occupations ,FALSE,105023.75,181973.57,42.28
-69,S&E related occupations ,Health-related occupations ,TRUE,91279.45,126635.52,27.91
-70,S&E related occupations ,Other S&E-related occupations ,FALSE,106350,158811.32,33.03
-71,S&E related occupations ,Other S&E-related occupations ,TRUE,11000,80333.33,86.3
-72,S&E related occupations ,S&E Pre-college Teachers ,FALSE,53386.26,63188.48,15.51
-73,S&E related occupations ,S&E Pre-college Teachers ,TRUE,57833.33,69666.66,16.98
-74,S&E related occupations ,S&E managers ,FALSE,147245.28,164770.24,10.63
-75,S&E related occupations ,S&E managers ,TRUE,116839.41,136994.92,14.71
-76,S&E related occupations ,S&E technicians and technologists ,FALSE,94947.36,111332.01,14.71
-77,S&E related occupations ,S&E technicians and technologists ,TRUE,51611.11,74400,30.63
-78,Social and related scientists ,Social and related scientists ,FALSE,92817.02,112768.01,17.69
-79,Social and related scientists ,Social and related scientists ,TRUE,77457,89599.27,13.55
-80,Social and related scientists ,Economists ,FALSE,124462.8,137709.67,9.61
-81,Social and related scientists ,Economists ,TRUE,93111.11,93951.8,0.89
-82,Social and related scientists ,Other social and related scientists ,FALSE,101125,99563.21,-1.56
-83,Social and related scientists ,Other social and related scientists ,TRUE,78874.47,81964.7,3.77
-84,Social and related scientists ,Political scientists ,FALSE,102333.33,99953.48,-2.38
-85,Social and related scientists ,Political scientists ,TRUE,98400,104411.76,5.75
-86,Social and related scientists ,Postsecondary teachers - social and related sciences ,FALSE,84894.73,61680,-37.63
-87,Social and related scientists ,Postsecondary teachers - social and related sciences ,TRUE,77067.88,89806.7,14.18
-88,Social and related scientists ,Psychologists ,FALSE,86308.41,103851.9,16.89
-89,Social and related scientists ,Psychologists ,TRUE,79137.19,91768.65,13.76
-90,Social and related scientists ,Sociologists and anthropologists ,FALSE,85055.9,107527.77,20.89
-91,Social and related scientists ,Sociologists and anthropologists ,TRUE,68607.59,71295.45,3.77
+,N2OCPRMG,N2OCPRNG,ACADEMIA,FemaleSalary,MaleSalary,relativeGap,relativeGap(toFemale),absoluteGap
+0,"Biological, agricultural and other life scientists ","Biological, agricultural and other life scientists ",FALSE,97073.39,109144.18,11.05,12.43,12070.79
+1,"Biological, agricultural and other life scientists ","Biological, agricultural and other life scientists ",TRUE,69005.37,83955.02,17.8,21.66,14949.65
+2,"Biological, agricultural and other life scientists ",Agricultural & food scientists ,FALSE,91287.17,103142.17,11.49,12.98,11855
+3,"Biological, agricultural and other life scientists ",Agricultural & food scientists ,TRUE,69274.39,79895.83,13.29,15.33,10621.44
+4,"Biological, agricultural and other life scientists ",Biological and medical scientists ,FALSE,98785.79,112324.72,12.05,13.7,13538.93
+5,"Biological, agricultural and other life scientists ",Biological and medical scientists ,TRUE,64951.8,78579.77,17.34,20.98,13627.97
+6,"Biological, agricultural and other life scientists ",Environmental life scientists ,FALSE,85976.74,88114.28,2.42,2.48,2137.54
+7,"Biological, agricultural and other life scientists ",Environmental life scientists ,TRUE,61282.05,59488.37,-3.01,-2.92,-1793.68
+8,"Biological, agricultural and other life scientists ",Postsecondary teachers - life and related sciences ,FALSE,73807.69,125268.29,41.08,69.72,51460.6
+9,"Biological, agricultural and other life scientists ",Postsecondary teachers - life and related sciences ,TRUE,72419.84,88217.47,17.9,21.81,15797.63
+10,Computer and mathematical scientists ,Computer and mathematical scientists ,FALSE,123071.11,137873.07,10.73,12.02,14801.96
+11,Computer and mathematical scientists ,Computer and mathematical scientists ,TRUE,80150.2,87602.81,8.5,9.29,7452.61
+12,Computer and mathematical scientists ,Computer and information scientists ,FALSE,124951.78,138644.86,9.87,10.95,13693.08
+13,Computer and mathematical scientists ,Computer and information scientists ,TRUE,75192.3,96908.21,22.4,28.88,21715.91
+14,Computer and mathematical scientists ,Mathematical scientists ,FALSE,121031.91,137273.39,11.83,13.41,16241.48
+15,Computer and mathematical scientists ,Mathematical scientists ,TRUE,83221.23,86056.25,3.29,3.4,2835.02
+16,Computer and mathematical scientists ,Postsecondary teachers - computer and math sciences ,FALSE,102166.66,80090.9,-27.56,-21.6,-22075.76
+17,Computer and mathematical scientists ,Postsecondary teachers - computer and math sciences ,TRUE,80199.75,86688.45,7.48,8.09,6488.7
+18,Engineers ,Engineers ,FALSE,112014.76,130112.06,13.9,16.15,18097.3
+19,Engineers ,Engineers ,TRUE,88211.3,92099.6,4.22,4.4,3888.3
+20,Engineers ,"Aerospace, aeronautical or astronautical engineers ",FALSE,123661.01,135509.43,8.74,9.58,11848.42
+21,Engineers ,"Aerospace, aeronautical or astronautical engineers ",TRUE,115500,113250,-1.98,-1.94,-2250
+22,Engineers ,Chemical engineers ,FALSE,108686.86,133698.11,18.7,23.01,25011.25
+23,Engineers ,Chemical engineers ,TRUE,45800,63818.18,28.23,39.34,18018.18
+24,Engineers ,"Civil, architectural or sanitary engineers ",FALSE,85288.46,101900,16.3,19.47,16611.54
+25,Engineers ,"Civil, architectural or sanitary engineers ",TRUE,78052.63,71556.96,-9.07,-8.32,-6495.67
+26,Engineers ,Electrical or computer hardware engineers ,FALSE,124017.34,142924.8,13.22,15.24,18907.46
+27,Engineers ,Electrical or computer hardware engineers ,TRUE,90437.5,110298.96,18,21.96,19861.46
+28,Engineers ,Industrial engineers ,FALSE,121384.61,126296.87,3.88,4.04,4912.26
+29,Engineers ,Industrial engineers ,TRUE,86400,106888.88,19.16,23.71,20488.88
+30,Engineers ,Mechanical engineers ,FALSE,111000,127025.82,12.61,14.43,16025.82
+31,Engineers ,Mechanical engineers ,TRUE,60125,81864.4,26.55,36.15,21739.4
+32,Engineers ,Other engineers ,FALSE,112649.46,129576.07,13.06,15.02,16926.61
+33,Engineers ,Other engineers ,TRUE,86952.94,87419.91,0.53,0.53,466.97
+34,Engineers ,Postsecondary teachers - engineering ,FALSE,46666.66,91352.94,48.91,95.75,44686.28
+35,Engineers ,Postsecondary teachers - engineering ,TRUE,89889.07,92720.21,3.05,3.14,2831.14
+36,Non-S&E Occupations ,Non-S&E Occupations ,FALSE,102345.9,148781.4,31.21,45.37,46435.5
+37,Non-S&E Occupations ,Non-S&E Occupations ,TRUE,99921.99,129483.01,22.83,29.58,29561.02
+38,Non-S&E Occupations ,"Art, humanities and related occupations ",FALSE,63860.56,77678.73,17.78,21.63,13818.17
+39,Non-S&E Occupations ,"Art, humanities and related occupations ",TRUE,63968.25,70550,9.32,10.28,6581.75
+40,Non-S&E Occupations ,Management-related occupations ,FALSE,105951.06,138021.18,23.23,30.26,32070.12
+41,Non-S&E Occupations ,Management-related occupations ,TRUE,74845.13,89115.94,16.01,19.06,14270.81
+42,Non-S&E Occupations ,Non-S&E Managers ,FALSE,148851.74,187015.94,20.4,25.63,38164.2
+43,Non-S&E Occupations ,Non-S&E Managers ,TRUE,143539.68,172883.69,16.97,20.44,29344.01
+44,Non-S&E Occupations ,Non-S&E postsecondary teachers ,FALSE,66080,93470.58,29.3,41.45,27390.58
+45,Non-S&E Occupations ,Non-S&E postsecondary teachers ,TRUE,84998.06,104589.34,18.73,23.04,19591.28
+46,Non-S&E Occupations ,Non-S&E precollege teachers ,FALSE,48969.46,60718.75,19.35,23.99,11749.29
+47,Non-S&E Occupations ,Non-S&E precollege teachers ,TRUE,89000,56333.33,-57.98,-36.7,-32666.67
+48,Non-S&E Occupations ,Other non-S&E occupations ,FALSE,82863.63,110233.16,24.82,33.02,27369.53
+49,Non-S&E Occupations ,Other non-S&E occupations ,TRUE,61652.17,72674.41,15.16,17.87,11022.24
+50,Non-S&E Occupations ,Sales and marketing occupations ,FALSE,102119.4,112366.47,9.11,10.03,10247.07
+51,Non-S&E Occupations ,Sales and marketing occupations ,TRUE,79000,87571.42,9.78,10.84,8571.42
+52,Non-S&E Occupations ,Social services and related occupations ,FALSE,58423.67,61343.94,4.76,4.99,2920.27
+53,Non-S&E Occupations ,Social services and related occupations ,TRUE,63468.75,64931.03,2.25,2.3,1462.28
+54,Physical and related scientists ,Physical and related scientists ,FALSE,104414.65,119455.5,12.59,14.4,15040.85
+55,Physical and related scientists ,Physical and related scientists ,TRUE,71906.15,82038.34,12.35,14.09,10132.19
+56,Physical and related scientists ,"Chemists, except biochemists ",FALSE,102235.6,117659.89,13.1,15.08,15424.29
+57,Physical and related scientists ,"Chemists, except biochemists ",TRUE,58075.75,71153.28,18.37,22.51,13077.53
+58,Physical and related scientists ,"Earth scientists, geologists and oceanographers ",FALSE,103920.71,119744.18,13.21,15.22,15823.47
+59,Physical and related scientists ,"Earth scientists, geologists and oceanographers ",TRUE,68809.75,79618.64,13.57,15.7,10808.89
+60,Physical and related scientists ,Other physical & related scientists ,FALSE,108144.73,117375.32,7.86,8.53,9230.59
+61,Physical and related scientists ,Other physical & related scientists ,TRUE,82697.67,79038.09,-4.63,-4.42,-3659.58
+62,Physical and related scientists ,Physicists and astronomers ,FALSE,113364.28,124919.55,9.25,10.19,11555.27
+63,Physical and related scientists ,Physicists and astronomers ,TRUE,67753.62,82098.48,17.47,21.17,14344.86
+64,Physical and related scientists ,Postsecondary teachers - physical and related sciences ,FALSE,43307.69,77285.71,43.96,78.45,33978.02
+65,Physical and related scientists ,Postsecondary teachers - physical and related sciences ,TRUE,72968.21,83095.44,12.18,13.87,10127.23
+66,S&E related occupations ,S&E related occupations ,FALSE,113418.72,157280.47,27.88,38.67,43861.75
+67,S&E related occupations ,S&E related occupations ,TRUE,92329.03,125161.44,26.23,35.56,32832.41
+68,S&E related occupations ,Health-related occupations ,FALSE,105023.75,181973.57,42.28,73.26,76949.82
+69,S&E related occupations ,Health-related occupations ,TRUE,91279.45,126635.52,27.91,38.73,35356.07
+70,S&E related occupations ,Other S&E-related occupations ,FALSE,106350,158811.32,33.03,49.32,52461.32
+71,S&E related occupations ,Other S&E-related occupations ,TRUE,11000,80333.33,86.3,630.3,69333.33
+72,S&E related occupations ,S&E Pre-college Teachers ,FALSE,53386.26,63188.48,15.51,18.36,9802.22
+73,S&E related occupations ,S&E Pre-college Teachers ,TRUE,57833.33,69666.66,16.98,20.46,11833.33
+74,S&E related occupations ,S&E managers ,FALSE,147245.28,164770.24,10.63,11.9,17524.96
+75,S&E related occupations ,S&E managers ,TRUE,116839.41,136994.92,14.71,17.25,20155.51
+76,S&E related occupations ,S&E technicians and technologists ,FALSE,94947.36,111332.01,14.71,17.25,16384.65
+77,S&E related occupations ,S&E technicians and technologists ,TRUE,51611.11,74400,30.63,44.15,22788.89
+78,Social and related scientists ,Social and related scientists ,FALSE,92817.02,112768.01,17.69,21.49,19950.99
+79,Social and related scientists ,Social and related scientists ,TRUE,77457,89599.27,13.55,15.67,12142.27
+80,Social and related scientists ,Economists ,FALSE,124462.8,137709.67,9.61,10.64,13246.87
+81,Social and related scientists ,Economists ,TRUE,93111.11,93951.8,0.89,0.9,840.69
+82,Social and related scientists ,Other social and related scientists ,FALSE,101125,99563.21,-1.56,-1.54,-1561.79
+83,Social and related scientists ,Other social and related scientists ,TRUE,78874.47,81964.7,3.77,3.91,3090.23
+84,Social and related scientists ,Political scientists ,FALSE,102333.33,99953.48,-2.38,-2.32,-2379.85
+85,Social and related scientists ,Political scientists ,TRUE,98400,104411.76,5.75,6.1,6011.76
+86,Social and related scientists ,Postsecondary teachers - social and related sciences ,FALSE,84894.73,61680,-37.63,-27.34,-23214.73
+87,Social and related scientists ,Postsecondary teachers - social and related sciences ,TRUE,77067.88,89806.7,14.18,16.52,12738.82
+88,Social and related scientists ,Psychologists ,FALSE,86308.41,103851.9,16.89,20.32,17543.49
+89,Social and related scientists ,Psychologists ,TRUE,79137.19,91768.65,13.76,15.96,12631.46
+90,Social and related scientists ,Sociologists and anthropologists ,FALSE,85055.9,107527.77,20.89,26.42,22471.87
+91,Social and related scientists ,Sociologists and anthropologists ,TRUE,68607.59,71295.45,3.77,3.91,2687.86

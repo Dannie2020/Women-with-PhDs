@@ -3,7 +3,7 @@ var academicVlSpec = {
     data: {
         url: "data/count_academic_data.csv"
     },
-    title: "Academic",
+    title: "Academia",
     vconcat: [
         {
             encoding: {
@@ -121,7 +121,7 @@ var industryVlSpec = {
                 y: {
                     title: "Count of Participants",
                     field: "Count",
-                    type: "quantitative"
+                    type: "quantitative",
                 }
             },
             width: 800,
