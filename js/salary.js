@@ -326,7 +326,6 @@ function showData(data) {
     }
 
     // add sort
-
     d3.select("#sortBy")
         .on("change", function () {
             var attribute = d3.select(this).property("value");
@@ -337,13 +336,24 @@ function showData(data) {
         const index = d3.range(data.length);
         let order = "job";
         if (attribute === "Job Category") order = "job";
-        if (attribute === "Gap Widest") order = "gap";
-        if (attribute === "Highest Paid Men") order = "mSalary";
-        if (attribute === "Highest Paid Women") order = "fSalary";
+        if (attribute === "Widest Gap") order = "gap";
+        if (attribute === "Highest Paid Men Job") order = "mSalary";
+        if (attribute === "Highest Paid Women Job") order = "fSalary";
         index.sort((i, j) => d3.descending(data[i][order], data[j][order]));
-        console.log(attribute)
+        console.log(attribute);
+        console.log(order);
         //chart.update(d3.permute(data.map(d => d.job), index));
     }
-
 }
+
+// update sort by based on plot by
+const sorts = {
+    "Salary": [{ value: "Job Category", desc: "Job Category" }, { value: "Widest Gap", desc: "Widest Gap" }, { value: "Highest Paid Men Job", desc: "Highest Paid Men Job" }, { value: "Highest Paid Women Job", desc: "Highest Paid Women Job" }],
+    "Gap": [{ value: "Job Category", desc: "Job Category" }, { value: "Ascending", desc: "Ascending" }, { value: "Descending", desc: "Descending" }]
+}
+
+const sort = document.getElementById("sortBy");
+document.getElementById("plotBy").addEventListener('change', function (e) {
+    sort.innerHTML = sorts[this.value].reduce((acc, elem) => `${acc}<option value="${elem.value}">${elem.desc}</option>`, "");
+});
 
