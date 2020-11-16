@@ -295,7 +295,7 @@ var weekVlSpec = {
                 },
                 y: {
                     field: "Percentage",
-                    sort: "-x",
+                    type: "quantitative",
                 }
             },
             width: { "step": 36 },
