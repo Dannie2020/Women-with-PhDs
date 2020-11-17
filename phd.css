@@ -25,6 +25,14 @@ span {
  .sectionBreak {
     margin-top: 50px;
  }
+ .fullwidth {
+  width: 100vw;
+  position: relative;
+  left: 10%;
+  right: 10%;
+  margin-left: 200px;
+  margin-right: 10vw;
+}
 
 #academicVis,
 #industryVis,
@@ -51,6 +59,7 @@ span {
     left: 200px;
     top: 20px;
 }
+
 
 #salaryRadio {
   padding-bottom: 10px;

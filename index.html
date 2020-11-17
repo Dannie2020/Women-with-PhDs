@@ -110,6 +110,20 @@
         <li>Use "Order By" drop down to sort the order by age group</li>
     </div>
     <div class="sectionBreak"><br></div>
+    <h2>Benefits and Social Impact Importance By Gender</h2>
+    
+    <div class= "fullwidth">
+        <div class="chart"></div>
+    </div>
+
+
+<script type="module">
+import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+import define from "https://api.observablehq.com/@erawn/parallel-sets-dark-mode-highlight-on-hover.js?v=3";
+(new Runtime).module(define, name => {
+  if (name === "chart") return Inspector.into(".chart")();
+});
+</script>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
 <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.17.0"></script>
@@ -120,5 +134,8 @@
 <script src="js/fSalary.js"></script>
 <script src="js/count.js"></script>
 <script src="js/df_s2.js"></script>
+<script src="js/lodash.js"></script>
+<script src="js/parallel.js"></script>
+<script src="js/sankey.js"></script>
 
 </html>
