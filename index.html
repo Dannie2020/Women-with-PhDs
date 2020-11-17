@@ -14,20 +14,6 @@
         <a href="https://profiles.stanford.edu/joy-doong">Joy Doong</a></span>
     <div class="sectionBreak"><br></div>
 
-    <h2>PhD Gender Parity across Academia/Industry Areas over Age</h2>
-    <div id="academicVis"></div>
-    <div id="industryVis"></div>
-    <div class="notes">
-        <li>Click on the "Principal Job Category" legend to filter out the count of male and female participants with
-            the corresponding legend</li>
-        <li>Hover over the colored points to reveal the accurate values</li>
-        <li>Hover over the bars to reveal the accurate values</li>
-        <li>Click and drag on the scatter plot to see the count of male and female participants (on the bar chart) in
-            that age group</li>
-        <li>Click on an un-brushed area on the scatter plot to exit the brush</li>
-    </div>
-    <div class="sectionBreak"><br></div>
-
     <h2>PhD Recipients by Gender, Age and Race</h2>
     <div id="raceVis"></div>
     <div class="notes">
@@ -40,8 +26,18 @@
     <div id="race2Vis"></div>
     <div class="sectionBreak"><br></div>
 
-    <h2>PhD Recipients working 52 weeks and >40 hrs/week</h2>
-    <div id="weekVis"></div>
+    <h2>PhD Gender Parity across Academia/Industry Areas over Age</h2>
+    <div id="academicVis"></div>
+    <div id="industryVis"></div>
+    <div class="notes">
+        <li>Click on the "Principal Job Category" legend to filter out the count of male and female participants with
+            the corresponding legend</li>
+        <li>Hover over the colored points to reveal the accurate values</li>
+        <li>Hover over the bars to reveal the accurate values</li>
+        <li>Click and drag on the scatter plot to see the count of male and female participants (on the bar chart) in
+            that age group</li>
+        <li>Click on an un-brushed area on the scatter plot to exit the brush</li>
+    </div>
     <div class="sectionBreak"><br></div>
 
     <h2>PhD Gender Salary Gap</h2>
@@ -110,20 +106,25 @@
         <li>Use "Order By" drop down to sort the order by age group</li>
     </div>
     <div class="sectionBreak"><br></div>
+
+    <h2>PhD Recipients working 52 weeks and >40 hrs/week</h2>
+    <div id="weekVis"></div>
+    <div class="sectionBreak"><br></div>
+
     <h2>Benefits and Social Impact Importance By Gender</h2>
-    
-    <div class= "fullwidth">
+
+    <div class="fullwidth">
         <div class="chart"></div>
     </div>
 
 
-<script type="module">
-import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
-import define from "https://api.observablehq.com/@erawn/parallel-sets-dark-mode-highlight-on-hover.js?v=3";
-(new Runtime).module(define, name => {
-  if (name === "chart") return Inspector.into(".chart")();
-});
-</script>
+    <script type="module">
+        import { Runtime, Inspector } from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+        import define from "https://api.observablehq.com/@erawn/parallel-sets-dark-mode-highlight-on-hover.js?v=3";
+        (new Runtime).module(define, name => {
+            if (name === "chart") return Inspector.into(".chart")();
+        });
+    </script>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
 <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.17.0"></script>
