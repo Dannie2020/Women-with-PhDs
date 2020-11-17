@@ -299,7 +299,7 @@ var weekVlSpec = {
                 }
             },
             width: { "step": 36 },
-            height: 280,
+            height: 200,
             mark: { type: "bar", tooltip: true },
         }
     ]
