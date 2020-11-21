@@ -8,8 +8,7 @@
 
 <body>
     <h1>Women with PhDs</h1>
-    <h3>Authors:</h3>
-    <span><a href="https://danniegao.myportfolio.com/">Danting Gao,</a>&nbsp &nbsp
+    <h3>Authors:</h3><span><a href="https://danniegao.myportfolio.com/">Danting Gao,</a>&nbsp &nbsp
         <a href="https://www.ericrawn.media/">Eric Rawn,</a>&nbsp &nbsp
         <a href="https://profiles.stanford.edu/joy-doong">Joy Doong</a></span>
     <div class="sectionBreak"><br></div>
@@ -20,10 +19,17 @@
         <li>Click on the "Race/ethinicity" legend to filter out the count of male and female participants with
             the corresponding legend</li>
     </div>
+    <div class="text">
+        <p>The chart above provides a spread of those in academia by race, gender, and age. This chart makes clear that the number of men in academia has largely stayed the same while the number of women has risen over the past few decades. </p>
+    </div>
     <div class="sectionBreak"><br></div>
 
     <h2>PhD Recipients by Race</h2>
     <div id="race2Vis"></div>
+    <div class="sectionBreak"><br></div>
+    <div class="text">
+        <p>Here, we zoom in specifically on Race to see that Doctoral Students of Asian descent have seen the greatest increase. It's important to recognize that even though we see total numbers of women increasing, those parity gains are not equally distributed racially.</p>
+    </div>
     <div class="sectionBreak"><br></div>
 
     <h2>PhD Gender Parity across Academia/Industry Areas over Age</h2>
@@ -37,6 +43,9 @@
         <li>Click and drag on the scatter plot to see the count of male and female participants (on the bar chart) in
             that age group</li>
         <li>Click on an un-brushed area on the scatter plot to exit the brush</li>
+    </div>
+     <div class="text">
+        <p>This visualization shows the representation gap of men and women by industry over time. We can see here that women are actually more represented in the Social Sciences, but face significant representation challenges in Engineering and Computer Science. Explore the graph yourself to understand the trajectory of each field, and use the brush and interactive legend to filter for multiple categories and ages at once.</p>
     </div>
     <div class="sectionBreak"><br></div>
 
@@ -77,6 +86,10 @@
         <li>Use "Sort By" drop down to sort the list order</li>
         <li>The calculation of Average Salary Gap (%) is: (male salary - female salary) / male salary * 100%</li>
     </div>
+
+    <div class="text">
+        <p>Here we can see the wage gap of women with PhDs by industry. From the graph its clear that men make more than women in nearly every field, with the only significant wage gap that favors women present in pre-college teaching. In some fields, women are making less than $20,000 less anually than their male counterparts. Explore the categories yourself by toggling Academia/Industry, Salary vs Gap Plotting, and Sorting Options.</p>
+    </div>
     <div class="sectionBreak"><br></div>
 
     <h2>Salary of Female PhD by Age</h2>
@@ -105,18 +118,32 @@
     <div class="notes">
         <li>Use "Order By" drop down to sort the order by age group</li>
     </div>
+    <div class="text">
+        <p>This visualization shows the spread of female salaries by age and sector. This graph reveals that women in computer science often have much more stable salaries over the course of their careers than women in biological sciences, whoose early career salaries are $20-30,000 less. To explore on your own, sort by a specific age group to understand that particular group by sector.</p>
+    </div>
+ 
     <div class="sectionBreak"><br></div>
 
     <h2>PhD Recipients working 52 weeks and >40 hrs/week</h2>
     <div id="weekVis"></div>
+    <div class="text">
+        <p>Here, the top graph offers a clear view of the rise of  more-than-full-time working women in Academia. The bottom chart displays the percentages of each group, which help us understand that even accounting for the rise in younger women working more, there is a consistent gap between men and women in who works more than full-time hours.</p>
+    </div>
+ 
+
     <div class="sectionBreak"><br></div>
 
-    <h2>Benefits and Social Impact Importance By Gender</h2>
+    <h2>Benefits and Importance By Gender and Sector</h2>
 
-    <div class="fullwidth">
+
         <div class="chart"></div>
-    </div>
+    <div class="text">
+        <p>This visualization shows the intersection of gender and sector on Benefits Satisfaction. While the proportion of those "Very Satisfied" with their benefits is consistent with the overall count of men and women, the proportion of those who are "Somewhat" or "Very Dissatisfied" skews significantly towards women. This visualization also reveals that although academia is on the whole reaching gender parity, the number of women in Industry is still significantly lower. These findings are consistent with our earlier assumptions- that women are more likely to be shouldered with childcare responsibilities and may prioritize the flexibility offered by academia over an industry job. </p>
 
+        <p>To explore the data yourself, hover over any linkage to understand its pathway through the graph and hover over a vertical bar to show its individual contribution to each neighboring category and the overall percentage of men and women for each category.</p>
+    </div>
+ 
+    <div class="sectionBreak"><br></div>
 
     <script type="module">
         import { Runtime, Inspector } from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
@@ -125,6 +152,28 @@
             if (name === "chart") return Inspector.into(".chart")();
         });
     </script>
+
+     <div class="fullwidth">
+         <div class="viewof-chart1"></div>
+    <div class="viewof-char2"></div>
+    </div>
+    <div class="text">
+        <p>These two charts reveal who has to shoulder the responsibilities of family care. We can see from the top chart that a much greater number of women choose to work part time due to family responsibilities than men, significantly around the time when many choose to raise younger children, around 35-45 years old. The bottom chart shows that as a percentage of the total, women choose more often across age groups to work part time due to family commitments.</p>
+    </div>
+ 
+    <div class="sectionBreak"><br></div>
+    <script type="module">
+    import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+    import define from "https://api.observablehq.com/@erawn/additional-graphs-for-final-project.js?v=3";
+    (new Runtime).module(define, name => {
+      if (name === "viewof chart1") return Inspector.into(".viewof-chart1")();
+      if (name === "viewof char2") return Inspector.into(".viewof-char2")();
+    });
+    </script>
+    <div class="text">
+        <p>This project examined the role of women in academia across lines of race, sector, wage, and priorities. We found that while recently women have been making strong gains for gender parity on the whole, for specific sectors and for minorities such as Black and Latinx women, gender parity has a long way to go. For nearly every sector, men make significantly more than their female counterparts. For all the stark structural issues this data presents, it importantly leaves out the many women who wanted to obtain a PhD but were unable to due to structural barriers. Especially in sectors like computer science where men still outnumber women by a wide margin, it is clear that women are being recruited into programs less, actively pushed out of programs more, and are not given positions as lucrative or as often.  </p>
+    </div>
+
 </body>
 <script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
 <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.17.0"></script>
@@ -135,8 +184,5 @@
 <script src="js/fSalary.js"></script>
 <script src="js/count.js"></script>
 <script src="js/df_s2.js"></script>
-<script src="js/lodash.js"></script>
-<script src="js/parallel.js"></script>
-<script src="js/sankey.js"></script>
 
 </html>

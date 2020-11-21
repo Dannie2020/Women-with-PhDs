@@ -6,13 +6,19 @@
  h1 {
   margin-left: 200px;
   font-size: 96px;
-  color: #706897;
+  color: #e8505b;
  }
 
  h2 {
      margin-left: 200px;
      margin-bottom: 0;
      font-size: 32px;
+     color:
+#17a596;
+ }
+ body{
+  background-color:
+#f1f1f1;
  }
 
  h3 {
@@ -26,14 +32,20 @@ span {
     margin-top: 50px;
  }
  .fullwidth {
-  width: 100vw;
+  width: 1400vw;
   position: relative;
-  left: 10%;
-  right: 10%;
-  /*margin-left: 200px;*/
+  max-width: 1000px;
+  margin-left: 200px;
   margin-right: 10vw;
 }
-
+ .chart{
+  width: 1400vw;
+  position: relative;
+  max-width: 1000px;
+  margin-left: 200px;
+  margin-right: 10vw;
+}
+#pjfam1,
 #academicVis,
 #industryVis,
 #weekVis {
@@ -75,6 +87,13 @@ span {
     color: #666666;
     font-size: 14px;
     font-style: italic;
+}
+.text {
+    margin-left: 300px;
+    font-size: 18px;
+    text-align: left;
+    text-indent: 50px;
+    line-height: 150%;
 }
 
 .label {
