@@ -11,7 +11,7 @@ var raceVlSpec = {
             }],
             encoding: {
                 color: {
-                    title: "Race/ethinicity",
+                    title: "Race/ethnicity",
                     field: "RACETHMP",
                     type: "nominal",
                     scale: {
@@ -36,7 +36,7 @@ var raceVlSpec = {
                     field: "AGEGRP",
                     type: "ordinal",
                     title: "Age Group",
-                    sort: ["Ages 29 or younger ","Ages 30-34 ","Ages 35-39 ","Ages 40-44 ","Ages 45-49 ","Ages 50-54 ","Ages 55-59 ","Ages 60-64 ","Ages 65-69 ","Ages 70-75 ",],
+                    sort: ["Ages 29 or younger ", "Ages 30-34 ", "Ages 35-39 ", "Ages 40-44 ", "Ages 45-49 ", "Ages 50-54 ", "Ages 55-59 ", "Ages 60-64 ", "Ages 65-69 ", "Ages 70-75 ",],
                 }
             },
             width: 400,
@@ -55,7 +55,7 @@ var raceVlSpec = {
             }],
             encoding: {
                 color: {
-                    title: "Race/ethinicity",
+                    title: "Race/ethnicity",
                     field: "RACETHMP",
                     type: "nominal",
                     scale: {
@@ -80,7 +80,7 @@ var raceVlSpec = {
                     field: "AGEGRP",
                     type: "ordinal",
                     title: "Age Group",
-                    sort: ["Ages 29 or younger ","Ages 30-34 ","Ages 35-39 ","Ages 40-44 ","Ages 45-49 ","Ages 50-54 ","Ages 55-59 ","Ages 60-64 ","Ages 65-69 ","Ages 70-75 ",],
+                    sort: ["Ages 29 or younger ", "Ages 30-34 ", "Ages 35-39 ", "Ages 40-44 ", "Ages 45-49 ", "Ages 50-54 ", "Ages 55-59 ", "Ages 60-64 ", "Ages 65-69 ", "Ages 70-75 ",],
                 }
             },
             width: 400,
@@ -110,7 +110,7 @@ var race2VlSpec = {
             }],
             encoding: {
                 color: {
-                    title: "Race/ethinicity",
+                    title: "Race/ethnicity",
                     field: "RACETHMP",
                     type: "nominal",
                     scale: {
@@ -126,7 +126,7 @@ var race2VlSpec = {
                     field: "AGEGRP",
                     type: "ordinal",
                     title: "Age Group",
-                    sort: ["Ages 29 or younger ","Ages 30-34 ","Ages 35-39 ","Ages 40-44 ","Ages 45-49 ","Ages 50-54 ","Ages 55-59 ","Ages 60-64 ","Ages 65-69 ","Ages 70-75 ",],
+                    sort: ["Ages 29 or younger ", "Ages 30-34 ", "Ages 35-39 ", "Ages 40-44 ", "Ages 45-49 ", "Ages 50-54 ", "Ages 55-59 ", "Ages 60-64 ", "Ages 65-69 ", "Ages 70-75 ",],
                 }
             },
             width: 200,
@@ -140,7 +140,7 @@ var race2VlSpec = {
             }],
             encoding: {
                 color: {
-                    title: "Race/ethinicity",
+                    title: "Race/ethnicity",
                     field: "RACETHMP",
                     type: "nominal",
                     scale: {
@@ -157,7 +157,7 @@ var race2VlSpec = {
                     field: "AGEGRP",
                     type: "ordinal",
                     title: "Age Group",
-                    sort: ["Ages 29 or younger ","Ages 30-34 ","Ages 35-39 ","Ages 40-44 ","Ages 45-49 ","Ages 50-54 ","Ages 55-59 ","Ages 60-64 ","Ages 65-69 ","Ages 70-75 ",],
+                    sort: ["Ages 29 or younger ", "Ages 30-34 ", "Ages 35-39 ", "Ages 40-44 ", "Ages 45-49 ", "Ages 50-54 ", "Ages 55-59 ", "Ages 60-64 ", "Ages 65-69 ", "Ages 70-75 ",],
                     axis: null
                 }
             },
@@ -173,7 +173,7 @@ var race2VlSpec = {
             }],
             encoding: {
                 color: {
-                    title: "Race/ethinicity",
+                    title: "Race/ethnicity",
                     field: "RACETHMP",
                     type: "nominal",
                     scale: {
@@ -190,7 +190,7 @@ var race2VlSpec = {
                     field: "AGEGRP",
                     type: "ordinal",
                     title: "Age Group",
-                    sort: ["Ages 29 or younger ","Ages 30-34 ","Ages 35-39 ","Ages 40-44 ","Ages 45-49 ","Ages 50-54 ","Ages 55-59 ","Ages 60-64 ","Ages 65-69 ","Ages 70-75 ",],
+                    sort: ["Ages 29 or younger ", "Ages 30-34 ", "Ages 35-39 ", "Ages 40-44 ", "Ages 45-49 ", "Ages 50-54 ", "Ages 55-59 ", "Ages 60-64 ", "Ages 65-69 ", "Ages 70-75 ",],
                     axis: null
                 }
             },
@@ -206,7 +206,7 @@ var race2VlSpec = {
             }],
             encoding: {
                 color: {
-                    title: "Race/ethinicity",
+                    title: "Race/ethnicity",
                     field: "RACETHMP",
                     type: "nominal",
                     scale: {
@@ -223,7 +223,7 @@ var race2VlSpec = {
                     field: "AGEGRP",
                     type: "ordinal",
                     title: "Age Group",
-                    sort: ["Ages 29 or younger ","Ages 30-34 ","Ages 35-39 ","Ages 40-44 ","Ages 45-49 ","Ages 50-54 ","Ages 55-59 ","Ages 60-64 ","Ages 65-69 ","Ages 70-75 ",],
+                    sort: ["Ages 29 or younger ", "Ages 30-34 ", "Ages 35-39 ", "Ages 40-44 ", "Ages 45-49 ", "Ages 50-54 ", "Ages 55-59 ", "Ages 60-64 ", "Ages 65-69 ", "Ages 70-75 ",],
                     axis: null
                 }
             },
