@@ -16,6 +16,7 @@
      color:
 #17a596;
  }
+
  body{
   background-color:
 #f1f1f1;
@@ -24,6 +25,21 @@
  h3 {
      margin-left: 300px;
  }
+
+ a:link {
+  color: teal;
+  background-color: transparent;
+}
+
+a:visited {
+  color: palevioletred;
+  background-color: transparent;
+}
+
+a:hover {
+  color: salmon;
+  background-color: transparent;
+}
 
 span {
     margin-left: 300px;
