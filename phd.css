@@ -32,12 +32,12 @@
 }
 
 a:visited {
-  color: palevioletred;
+  color: teal;
   background-color: transparent;
 }
 
 a:hover {
-  color: salmon;
+  color: palevioletred;
   background-color: transparent;
 }
 
