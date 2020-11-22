@@ -45,6 +45,13 @@ span {
   margin-left: 200px;
   margin-right: 10vw;
 }
+ .chart4{
+  width: 1400vw;
+  position: relative;
+  max-width: 1000px;
+  margin-left: 200px;
+  margin-right: 10vw;
+}
 #pjfam1,
 #academicVis,
 #industryVis,

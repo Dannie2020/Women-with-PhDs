@@ -218,8 +218,8 @@
 
     <div class="sectionBreak"><br></div>
 
-    <h2>Benefits and Importance By Gender and Sector</h2>
-
+    <h2>Importance of Benefits By Gender and Sector</h2>
+    <div class="sectionBreak"><br></div>
 
     <div class="chart"></div>
     </br>
@@ -240,6 +240,27 @@
 
     <div class="sectionBreak"><br></div>
 
+    <h2>Importance of Social Impact By Gender and Sector</h2>
+    <div class="sectionBreak"><br></div>
+    <div class="chart4"></div>
+    <div class="text">
+        <p>Similar to the visualization above, here we see that women are significantly more likely to highly rate the importance of social impact in their research and career priorities. This holds important implications for how gender parity (or the lack thereof) affects the priorities of Doctoral graduates.</p>
+
+        <p>To explore the data yourself, hover over any linkage to understand its pathway through the graph and hover
+            over a vertical bar to show its individual contribution to each neighboring category and the overall
+            percentage of men and women for each category.</p>
+    </div>
+
+     <div class="sectionBreak"><br></div>
+
+<script type="module">
+import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+import define from "https://api.observablehq.com/@erawn/parallel-sets/2.js?v=3";
+(new Runtime).module(define, name => {
+  if (name === "chart4") return Inspector.into(".chart4")();
+});
+</script>
+
     <script type="module">
         import { Runtime, Inspector } from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
         import define from "https://api.observablehq.com/@erawn/parallel-sets-dark-mode-highlight-on-hover.js?v=3";
@@ -247,6 +268,8 @@
             if (name === "chart") return Inspector.into(".chart")();
         });
     </script>
+    <h2>Family Responsibilities by Gender</h2>
+    <div class="sectionBreak"><br></div>
 
     <div class="fullwidth">
         <div class="viewof-chart1"></div>
