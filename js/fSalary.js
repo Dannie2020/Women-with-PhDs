@@ -96,7 +96,7 @@ function showData(data) {
             .tickSize(-fSplotVars.plotHeight)
             .tickFormat("")
         )
-
+    var sort = "job";
     // create y axis
     let yScale = d3.scalePoint()
         .domain(data.map(d => d.job).sort(d3.ascending))
@@ -131,7 +131,19 @@ function showData(data) {
             .join("circle")
             .attr("class", "plotCircle")
             .attr("cx", ([k, d]) => xScale(d[k]))
-            .attr("fill", ([k]) => color(k))
+            .attr("filter",  ([k]) => k)
+            .attr("fill", ([k]) => {
+                //console.log(sort)
+                //console.log(k)
+                if(sort == "job"){
+                  return color(k);
+                }else if(k === sort){
+                  d3.select(this).raise();
+                  return color(k);
+                }else{
+                    return "#a3a3a3";
+                }
+                })
             .attr("r", 6)
 
         g.append("text")
@@ -144,6 +156,8 @@ function showData(data) {
     // add sorting
     d3.select("#fOrderBy")
         .on("change", function () {
+            sort = d3.select(this).property("value");
+            //console.log(sort);
             var attribute = d3.select(this).property("value");
             update(attribute);
         })
@@ -153,7 +167,6 @@ function showData(data) {
         //console.log(index);
         const order = attribute === "job" ? d3.ascending : d3.descending;
         index.sort((i, j) => order(dataByJob[i][attribute], dataByJob[j][attribute]));
-        //console.log('attribute =', attribute);
         let jobs = d3.permute(dataByJob.map(d => d.job), index);
         yScale.domain(jobs);
         dataByJob = d3.permute(dataByJob, index);
@@ -161,6 +174,7 @@ function showData(data) {
         d3.selectAll(".plotCircle").remove();
         d3.selectAll(".yLabels").remove();
         plotData(dataByJob);
+        d3.selectAll(".plotCircle").filter(function(d){return d[0] === sort;}).raise();
     }
 
 }
