@@ -23,7 +23,7 @@ let plotContainer = d3.select("#salaryPlotContainer")
 
 let plotVars = ({
     plotHeight: 800,
-    plotWidth: 1000,
+    plotWidth: 870,
 })
 
 // create showData function
