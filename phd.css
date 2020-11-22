@@ -22,7 +22,7 @@
  }
 
  h3 {
-     margin-left: 200px;
+     margin-left: 300px;
  }
 
 span {
@@ -94,6 +94,12 @@ span {
     text-align: left;
     text-indent: 50px;
     line-height: 150%;
+}
+.small {
+    margin-left: 300px;
+    color: #666666;
+    font-size: 14px;
+    font-style: italic;
 }
 
 .label {
